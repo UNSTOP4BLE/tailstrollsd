@@ -1,0 +1,46 @@
+all: \
+	iso/menu/menu.arc \
+	iso/menu/loading.tim \
+	iso/font/boldfont.tim \
+	iso/font/arial.tim \
+	iso/stage/hud0.tim \
+	iso/stage/hud1.tim \
+	iso/stage/hud0weeb.tim \
+	iso/bf/main.arc \
+	iso/bf/dead.arc \
+	iso/bf/weeb.arc \
+	iso/bfa/main.arc \
+	iso/bfa/dead.arc \
+	iso/bfa/weeb.arc \
+	iso/xmasp/main.arc \
+	iso/gf/main.arc \
+	iso/gf/speaker.tim \
+	iso/week4/back.arc
+
+iso/%.tim: iso/%.png
+	tools/funkintimconv/funkintimconv $@ $<
+
+iso/%.arc:
+	tools/funkinarcpak/funkinarcpak $@ $^
+
+# Menu
+iso/menu/menu.arc: iso/menu/back.tim iso/menu/ng.tim iso/menu/story.tim iso/menu/title.tim
+
+# BF
+iso/bf/main.arc: iso/bf/idle.tim iso/bf/hit0.tim iso/bf/miss0.tim iso/bf/hit1.tim iso/bf/miss1.tim iso/bf/peace.tim iso/bf/dead0.tim
+iso/bf/dead.arc: iso/bf/dead1.tim iso/bf/dead2.tim iso/bf/retry.tim
+iso/bf/weeb.arc: iso/bf/weeb0.tim iso/bf/weeb1.tim
+
+iso/bfa/main.arc: iso/bfa/idle.tim iso/bfa/hit0.tim iso/bfa/miss0.tim iso/bfa/hit1.tim iso/bfa/miss1.tim iso/bfa/peace.tim iso/bfa/dead0.tim
+iso/bfa/dead.arc: iso/bfa/dead1.tim iso/bfa/dead2.tim iso/bfa/retry.tim
+iso/bfa/weeb.arc: iso/bfa/weeb0.tim iso/bfa/weeb1.tim
+
+# XMas Parents
+iso/xmasp/main.arc: iso/xmasp/idle0.tim iso/xmasp/idle1.tim iso/xmasp/idle2.tim iso/xmasp/idle3.tim iso/xmasp/lefta0.tim iso/xmasp/lefta1.tim iso/xmasp/leftb0.tim iso/xmasp/leftb1.tim iso/xmasp/downa0.tim iso/xmasp/downa1.tim iso/xmasp/downb0.tim iso/xmasp/downb1.tim iso/xmasp/upa0.tim iso/xmasp/upa1.tim iso/xmasp/upb0.tim iso/xmasp/upb1.tim iso/xmasp/righta0.tim iso/xmasp/righta1.tim iso/xmasp/rightb0.tim iso/xmasp/rightb1.tim
+
+# GF
+iso/gf/main.arc: iso/gf/bopleft.tim iso/gf/bopright.tim iso/gf/cry.tim
+
+# Week 4
+iso/week4/back.arc: iso/week4/back0.tim iso/week4/back1.tim iso/week4/back2.tim iso/week4/back3.tim
+iso/week4/hench.arc: iso/week4/hench0.tim iso/week4/hench1.tim
