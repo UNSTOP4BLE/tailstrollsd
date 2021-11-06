@@ -8,11 +8,11 @@
 		Back_Week4_New,
 		
 		//Song info
-		{FIXED_DEC(1,1),FIXED_DEC(1,1),FIXED_DEC(13,10)},
+		{FIXED_DEC(3,1),FIXED_DEC(3,1),FIXED_DEC(3,1)},
 		1, 1,
 		XA_Bopeebo, 0,
 		
-		StageId_1_2, STAGE_LOAD_FLAG
+		StageId_1_1, 0
 	},
 	{ //StageId_1_2 (Fresh)
 		//Characters
@@ -24,11 +24,11 @@
 		Back_Week4_New,
 		
 		//Song info
-		{FIXED_DEC(1,1),FIXED_DEC(13,10),FIXED_DEC(18,10)},
+		{FIXED_DEC(3,1),FIXED_DEC(3,1),FIXED_DEC(3,1)},
 		1, 2,
 		XA_Fresh, 2,
 		
-		StageId_1_3, STAGE_LOAD_FLAG
+		StageId_1_2, 0
 	},
 	{ //StageId_1_3 (Dadbattle)
 		//Characters
@@ -40,7 +40,7 @@
 		Back_Week4_New,
 		
 		//Song info
-		{FIXED_DEC(13,10),FIXED_DEC(15,10),FIXED_DEC(23,10)},
+		{FIXED_DEC(31,10),FIXED_DEC(31,10),FIXED_DEC(31,10)},
 		1, 3,
 		XA_Dadbattle, 0,
 		
@@ -56,7 +56,7 @@
 		Back_Week4_New,
 		
 		//Song info
-		{FIXED_DEC(1,1),FIXED_DEC(1,1),FIXED_DEC(1,1)},
+		{FIXED_DEC(5,1),FIXED_DEC(5,1),FIXED_DEC(5,1)},
 		1, 4,
 		XA_Tutorial, 2,
 		

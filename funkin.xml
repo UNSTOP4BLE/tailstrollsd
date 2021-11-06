@@ -57,7 +57,6 @@
 			<dir name = "week4">
 				<!-- Background art -->
 				<file name = "back.arc" type = "data" source = "iso/week4/back.arc"/>
-				<file name = "hench.arc" type = "data" source = "iso/week4/hench.arc"/>
 			</dir>
 			
 			<!-- Character assets -->
