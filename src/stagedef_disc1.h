@@ -17,11 +17,11 @@
 	{ //StageId_1_2 (Fresh)
 		//Characters
 		{Char_BF_New,    FIXED_DEC(60,1),  FIXED_DEC(100,1)},
-		{Char_XmasP_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
+		{Char_swagt_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
 		{Char_GF_New,     FIXED_DEC(0,1),    FIXED_DEC(0,1)},
 		
 		//Stage background
-		Back_Week4_New,
+		Back_swagbg_New,
 		
 		//Song info
 		{FIXED_DEC(3,1),FIXED_DEC(3,1),FIXED_DEC(3,1)},
@@ -33,11 +33,11 @@
 	{ //StageId_1_3 (Dadbattle)
 		//Characters
 		{Char_bfa_New,    FIXED_DEC(60,1),  FIXED_DEC(100,1)},
-		{Char_XmasP_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
+		{Char_sonic_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
 		{Char_GF_New,     FIXED_DEC(0,1),    FIXED_DEC(0,1)},
 		
 		//Stage background
-		Back_Week4_New,
+		Back_sonkbg_New,
 		
 		//Song info
 		{FIXED_DEC(31,10),FIXED_DEC(31,10),FIXED_DEC(31,10)},
@@ -49,8 +49,9 @@
 	{ //StageId_1_4 (Tutorial)
 		//Characters
 		{Char_BF_New,   FIXED_DEC(60,1),  FIXED_DEC(100,1)},
-		{Char_XmasP_New,   FIXED_DEC(0,1),  FIXED_DEC(-15,1)}, //TODO
 		{Char_GF_New,    FIXED_DEC(0,1),    FIXED_DEC(0,1)},
+		{Char_XmasP_New,   FIXED_DEC(0,1),  FIXED_DEC(-1500,1)},
+
 		
 		//Stage background
 		Back_Week4_New,

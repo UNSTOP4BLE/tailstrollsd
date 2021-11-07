@@ -18,19 +18,17 @@ SRCS = src/main.c \
        src/psx/pad.c \
        src/psx/timer.c \
        src/psx/movie.c \
-       src/stage/dummy.c \
-       src/stage/week1.c \
-       src/stage/week2.c \
-       src/stage/week3.c \
        src/stage/week4.c \
-       src/stage/week5.c \
-       src/stage/week7.c \
+       src/stage/swagbg.c \
+       src/stage/sonkbg.c \
        src/animation.c \
        src/character.c \
        src/character/bf.c \
        src/character/bfa.c \
        src/character/speaker.c \
        src/character/xmasp.c \
+       src/character/sonic.c \
+       src/character/swagt.c \
        src/character/gf.c \
        src/object.c \
        src/object/combo.c \

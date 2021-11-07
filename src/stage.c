@@ -23,10 +23,10 @@
 #include "object/splash.h"
 
 //Stage constants
-//#define STAGE_PERFECT //Play all notes perfectly
+#define STAGE_PERFECT //Play all notes perfectly
 //#define STAGE_NOHUD //Disable the HUD
 
-//#define STAGE_FREECAM //Freecam
+#define STAGE_FREECAM //Freecam
 
 static const fixed_t note_x[8] = {
 	//BF
@@ -46,24 +46,14 @@ static const u16 note_key[] = {INPUT_LEFT, INPUT_DOWN, INPUT_UP, INPUT_RIGHT};
 //Stage definitions
 #include "character/bf.h"
 #include "character/bfa.h"
-#include "character/dad.h"
-#include "character/spook.h"
-#include "character/pico.h"
-#include "character/mom.h"
 #include "character/xmasp.h"
-#include "character/senpai.h"
-#include "character/senpaim.h"
-#include "character/tank.h"
+#include "character/sonic.h"
+#include "character/swagt.h"
 #include "character/gf.h"
-#include "character/clucky.h"
 
-#include "stage/dummy.h"
-#include "stage/week1.h"
-#include "stage/week2.h"
-#include "stage/week3.h"
 #include "stage/week4.h"
-#include "stage/week5.h"
-#include "stage/week7.h"
+#include "stage/swagbg.h"
+#include "stage/sonkbg.h"
 
 static const StageDef stage_defs[StageId_Max] = {
 	#include "stagedef_disc1.h"

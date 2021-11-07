@@ -58,6 +58,16 @@
 				<!-- Background art -->
 				<file name = "back.arc" type = "data" source = "iso/week4/back.arc"/>
 			</dir>
+
+			<dir name = "swagbg">
+				<!-- Background art -->
+				<file name = "back.arc" type = "data" source = "iso/swagbg/back.arc"/>
+			</dir>
+
+			<dir name = "sonkbg">
+				<!-- Background art -->
+				<file name = "back.arc" type = "data" source = "iso/sonkbg/back.arc"/>
+			</dir>
 			
 			<!-- Character assets -->
 			<dir name = "char">
@@ -72,6 +82,10 @@
 
 				<!-- Christmas assets -->
 				<file name = "xmasp.arc" type = "data" source = "iso/xmasp/main.arc"/>
+
+				<file name = "swagt.arc" type = "data" source = "iso/swagt/main.arc"/>
+
+				<file name = "sonic.arc" type = "data" source = "iso/sonic/main.arc"/>
 				
 				<!-- Girlfriend assets -->
 				<file name = "gf.arc" type = "data" source = "iso/gf/main.arc"/>

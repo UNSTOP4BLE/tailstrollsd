@@ -129,7 +129,7 @@ static struct
 	} page_param;
 	
 	//Menu assets
-	Gfx_Tex tex_back, tex_ng, tex_story, tex_title;
+	Gfx_Tex tex_back, tex_titlebg, tex_ng, tex_story, tex_title;
 	FontData font_bold, font_arial;
 	
 	Character *gf; //Title Girlfriend
@@ -265,19 +265,20 @@ static void Menu_DrawWeek(const char *week, s32 x, s32 y)
 
 //Menu functions
 void Menu_Load(MenuPage page)
-{
+{		
 	//Load menu assets
 	IO_Data menu_arc = IO_Read("\\MENU\\MENU.ARC;1");
 	Gfx_LoadTex(&menu.tex_back,  Archive_Find(menu_arc, "back.tim"),  0);
 	Gfx_LoadTex(&menu.tex_ng,    Archive_Find(menu_arc, "ng.tim"),    0);
 	Gfx_LoadTex(&menu.tex_story, Archive_Find(menu_arc, "story.tim"), 0);
 	Gfx_LoadTex(&menu.tex_title, Archive_Find(menu_arc, "title.tim"), 0);
+	Gfx_LoadTex(&menu.tex_titlebg, Archive_Find(menu_arc, "titlebg.tim"), 0);
 	Mem_Free(menu_arc);
 	
 	FontData_Load(&menu.font_bold, Font_Bold);
 	FontData_Load(&menu.font_arial, Font_Arial);
 	
-	menu.gf = Char_GF_New(FIXED_DEC(62,1), FIXED_DEC(-12,1));
+	menu.gf = Char_GF_New(FIXED_DEC(620,1), FIXED_DEC(-12,1));
 	stage.camera.x = stage.camera.y = FIXED_DEC(0,1);
 	stage.camera.bzoom = FIXED_UNIT;
 	stage.gf_speed = 4;
@@ -468,12 +469,12 @@ void Menu_Tick(void)
 				FIXED_DEC(97,100),
 			};
 			fixed_t logo_scale = logo_scales[(menu.page_state.title.logo_bump * 24) >> FIXED_SHIFT];
-			u32 x_rad = (logo_scale * (176 >> 1)) >> FIXED_SHIFT;
-			u32 y_rad = (logo_scale * (112 >> 1)) >> FIXED_SHIFT;
+			u32 x_rad = (logo_scale * (234 >> 1)) >> FIXED_SHIFT;
+			u32 y_rad = (logo_scale * (138 >> 1)) >> FIXED_SHIFT;
 			
 			RECT logo_src = {0, 0, 176, 112};
 			RECT logo_dst = {
-				100 - x_rad + (SCREEN_WIDEADD2 >> 1),
+				175 - x_rad + (SCREEN_WIDEADD2 >> 1),
 				68 - y_rad,
 				x_rad << 1,
 				y_rad << 1
@@ -504,7 +505,7 @@ void Menu_Tick(void)
 			}
 			
 			//Draw Girlfriend
-			menu.gf->tick(menu.gf);
+
 			break;
 		}
 		case MenuPage_Main:
@@ -650,10 +651,11 @@ void Menu_Tick(void)
 				const char *week;
 				StageId stage;
 				const char *name;
-				const char *tracks[3];
+				const char *tracks[1];
 			} menu_options[] = {
-				{NULL, StageId_1_4, "TUTORIAL", {"TUTORIAL", NULL, NULL}},
-				{"1", StageId_1_1, "DADDY DEAREST", {"BOPEEBO", "FRESH", "DADBATTLE"}},
+				{"1", StageId_1_1, "", {"TALENTLESS FOX"}},
+				{"2", StageId_1_3, "", {"NO VILLAINS"}},
+
 			};
 			
 			//Initialize page
@@ -777,27 +779,9 @@ void Menu_Tick(void)
 			} menu_options[] = {
 				//{StageId_4_4, "TEST"},
 				{StageId_1_4, "TUTORIAL"},
-				{StageId_1_1, "BOPEEBO"},
-				{StageId_1_2, "FRESH"},
-				{StageId_1_3, "DADBATTLE"},
-				{StageId_2_1, "SPOOKEEZ"},
-				{StageId_2_2, "SOUTH"},
-				{StageId_2_3, "MONSTER"},
-				{StageId_3_1, "PICO"},
-				{StageId_3_2, "PHILLY NICE"},
-				{StageId_3_3, "BLAMMED"},
-				{StageId_4_1, "SATIN PANTIES"},
-				{StageId_4_2, "HIGH"},
-				{StageId_4_3, "MILF"},
-				{StageId_5_1, "COCOA"},
-				{StageId_5_2, "EGGNOG"},
-				{StageId_5_3, "WINTER HORRORLAND"},
-				{StageId_6_1, "SENPAI"},
-				{StageId_6_2, "ROSES"},
-				{StageId_6_3, "THORNS"},
-				{StageId_7_1, "UGH"},
-				{StageId_7_2, "GUNS"},
-				{StageId_7_3, "STRESS"},
+				{StageId_1_1, "TALENTLESS FOX"},
+				{StageId_1_2, "TSURARAN FOX"},
+				{StageId_1_3, "NO VILLAINS"},
 			};
 			
 			//Initialize page
