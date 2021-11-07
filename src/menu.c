@@ -493,7 +493,7 @@ void Menu_Tick(void)
 		{
 			static const char *menu_options[] = {
 				"STORY MODE",
-				"FREEPLAY",
+				"SIDE STORIES",
 				"CREDITS",
 				"OPTIONS",
 				#ifdef PSXF_NETWORK
@@ -774,7 +774,7 @@ void Menu_Tick(void)
 			
 			//Draw page label
 			menu.font_bold.draw(&menu.font_bold,
-				"FREEPLAY",
+				"SIDE STORIES",
 				16,
 				SCREEN_HEIGHT - 32,
 				FontAlign_Left
@@ -859,10 +859,30 @@ void Menu_Tick(void)
 				const char *text;
 				boolean difficulty;
 			} menu_options[] = {
-				{StageId_Kapi_1, "VS KAPI", false},
-				{StageId_Clwn_1, "VS TRICKY", true},
-				{StageId_Clwn_4, "   EXPURGATION", false},
-				{StageId_2_4,    "CLUCKED", false},
+				{StageId_Clwn_2, "	OG TGT MOD", false},
+				{StageId_Clwn_2, "ECHOLOCATED", false},
+				{StageId_Clwn_2, "NEBULA ZORUA", false},
+				{StageId_Clwn_2, "BE PIXEL", false},
+				{StageId_Clwn_2, "HOODA THE ANTAGONIST", false},
+				{StageId_Clwn_2, "WILDE", false},
+				{StageId_Clwn_2, "SKETCHAPHOBIA", false},
+				{StageId_Clwn_2, "MC CH", false},
+				{StageId_Clwn_2, "JIPPY", false},
+				{StageId_Clwn_2, "STICKYBM", false},
+				{StageId_Clwn_2, "LAZERBOT", false},
+				{StageId_Kapi_1, "	PORT PROGRAMMING", false},
+				{StageId_Kapi_2, "UNSTOPABLE", false},	
+				{StageId_Kapi_2, "LORD SCOUT", false},		
+				{StageId_Clwn_2, "	PLAYTESTING", false},
+				{StageId_Clwn_2, "IGORSOU", false},
+				{StageId_Clwn_2, "JOHN PAUL", false},
+				{StageId_Clwn_2, "LORD SCOUT", false},
+				{StageId_Clwn_1, "	MENUS", false},
+				{StageId_Clwn_2, "UNSTOPABLE", false},
+				{StageId_Clwn_2, "", false},
+				{StageId_Clwn_1, "	SPRITES AND IMAGES", false},
+				{StageId_Clwn_1, "MR P", false},
+				{StageId_Clwn_1, "UNSTOPABLE", false},
 			};
 			
 			//Initialize page
