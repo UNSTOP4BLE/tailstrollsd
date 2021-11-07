@@ -26,41 +26,22 @@
 
 //Menu messages
 static const char *funny_messages[][2] = {
-	{"PSX PORT BY CUCKYDEV", "YOU KNOW IT"},
-	{"PORTED BY CUCKYDEV", "WHAT YOU GONNA DO"},
-	{"FUNKIN", "FOREVER"},
-	{"WHAT THE HELL", "RITZ PSX"},
-	{"LIKE PARAPPA", "BUT COOLER"},
-	{"THE JAPI", "EL JAPI"},
-	{"PICO FUNNY", "PICO FUNNY"},
-	{"OPENGL BACKEND", "BY CLOWNACY"},
-	{"CUCKYFNF", "SETTING STANDARDS"},
-	{"lool", "inverted colours"},
-	{"NEVER LOOK AT", "THE ISSUE TRACKER"},
-	{"PSXDEV", "HOMEBREW"},
-	{"ZERO POINT ZERO TWO TWO EIGHT", "ONE FIVE NINE ONE ZERO FIVE"},
-	{"DOPE ASS GAME", "PLAYSTATION MAGAZINE"},
-	{"NEWGROUNDS", "FOREVER"},
-	{"NO FPU", "NO PROBLEM"},
-	{"OK OKAY", "WATCH THIS"},
-	{"ITS MORE MALICIOUS", "THAN ANYTHING"},
-	{"USE A CONTROLLER", "LOL"},
-	{"SNIPING THE KICKSTARTER", "HAHA"},
-	{"SHITS UNOFFICIAL", "NOT A PROBLEM"},
-	{"SYSCLK", "RANDOM SEED"},
-	{"THEY DIDNT HIT THE GOAL", "STOP"},
-	{"FCEFUWEFUETWHCFUEZDSLVNSP", "PQRYQWENQWKBVZLZSLDNSVPBM"},
-	{"PSXFUNKIN BY CUCKYDEV", "SUCK IT DOWN"},
-	{"PLAYING ON EPSXE HUH", "YOURE THE PROBLEM"},
-	{"NEXT IN LINE", "ATARI"},
-	{"HAXEFLIXEL", "COME ON"},
-	{"HAHAHA", "I DONT CARE"},
-	{"GET ME TO STOP", "TRY"},
-	{"FNF MUKBANG GIF", "THATS UNRULY"},
-	{"OPEN SOURCE", "FOREVER"},
-	{"ITS A PORT", "ITS WORSE"},
-	{"WOW GATO", "WOW GATO"},
-	{"BALLS FISH", "BALLS FISH"},
+	{"BENCH", "NONONONONONONONONONO"},
+	{"TAILS WAKE UP", "YOU FUCKED UP BIG TIME"},
+	{"WHATS 9", "PLUS 10"},
+	{"TOMBOY OR", "JERRYGIRL"},
+	{"MMMMMMMMM", "RABBIT ROAST"},
+	{"YOU LOOK MAD", "YOU STUPID BITCH"},
+	{"IM A GRUMPY OLD TROLL", "WHO LIVES UNDER A BRIDGE"},
+	{"HOW TO DEAL WITH TROLLS", "FUCK YOU TROLLS"},
+	{"WE DO UNGODLY", "AMOUNTS OF TROLLING"},
+	{"THERE IS NO NEED", "FOR BLOOD SHED"},
+	{"MOD CREATED", "WITHOUT VILLAINS"},
+	{"IM SO MAD SO IM HAVING", "SEX WITH GIRLFRIEND"},
+	{"YOU WAS RIGHT SHADOW", "I FUCKING KNEW IT"},
+	{"THEY CANT TROLL YOU", "IF THEYRE FUNKIN"},
+	{"HIGH SHOVEL", "HIGH SHOVEL"},
+	{"TAILS GETS TROLLED MOD", "FLIPPY CERTIFIED FAVORITE"},
 };
 
 #ifdef PSXF_NETWORK
@@ -385,14 +366,14 @@ void Menu_Tick(void)
 				//Fallthrough
 					case 2:
 					case 1:
-						menu.font_bold.draw(&menu.font_bold, "NINJAMUFFIN",   SCREEN_WIDTH2, SCREEN_HEIGHT2 - 32, FontAlign_Center);
-						menu.font_bold.draw(&menu.font_bold, "PHANTOMARCADE", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 16, FontAlign_Center);
-						menu.font_bold.draw(&menu.font_bold, "KAWAISPRITE",   SCREEN_WIDTH2, SCREEN_HEIGHT2,      FontAlign_Center);
-						menu.font_bold.draw(&menu.font_bold, "EVILSKER",      SCREEN_WIDTH2, SCREEN_HEIGHT2 + 16, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "ECHOLOCATED",   SCREEN_WIDTH2, SCREEN_HEIGHT2 - 32, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "BEPIXEL", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 16, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "HOODA THE ANTAGONIST",   SCREEN_WIDTH2, SCREEN_HEIGHT2,      FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "NEBULA THE ZORUA",      SCREEN_WIDTH2, SCREEN_HEIGHT2 + 16, FontAlign_Center);
 						break;
 					
 					case 7:
-						menu.font_bold.draw(&menu.font_bold, "NEWGROUNDS",    SCREEN_WIDTH2, SCREEN_HEIGHT2 - 32, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "LAZERBOT",    SCREEN_WIDTH2, SCREEN_HEIGHT2 - 32, FontAlign_Center);
 						Gfx_BlitTex(&menu.tex_ng, &src_ng, (SCREEN_WIDTH - 128) >> 1, SCREEN_HEIGHT2 - 16);
 				//Fallthrough
 					case 6:
@@ -410,13 +391,13 @@ void Menu_Tick(void)
 						break;
 					
 					case 15:
-						menu.font_bold.draw(&menu.font_bold, "FUNKIN", SCREEN_WIDTH2, SCREEN_HEIGHT2 + 8, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "TROLLED", SCREEN_WIDTH2, SCREEN_HEIGHT2 + 8, FontAlign_Center);
 				//Fallthrough
 					case 14:
-						menu.font_bold.draw(&menu.font_bold, "NIGHT", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 8, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "GETS", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 8, FontAlign_Center);
 				//Fallthrough
 					case 13:
-						menu.font_bold.draw(&menu.font_bold, "FRIDAY", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 24, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "TAILS", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 24, FontAlign_Center);
 						break;
 				}
 				break;

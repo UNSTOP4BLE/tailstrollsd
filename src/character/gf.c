@@ -157,7 +157,7 @@ Character *Char_GF_New(fixed_t x, fixed_t y)
 	//Set character information
 	this->character.spec = 0;
 	
-	this->character.health_i = 1;
+	this->character.health_i = 2;
 	
 	this->character.focus_x = FIXED_DEC(16,1);
 	this->character.focus_y = FIXED_DEC(-50,1);

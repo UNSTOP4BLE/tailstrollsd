@@ -53,28 +53,28 @@ typedef struct
 
 //Christmas Parents definitions
 static const CharFrame char_swagt_frame[] = {
-	{swagt_ArcMain_Idle0, {0,   0, 219, 195}, {130, 182}}, //0 idle 1
-	{swagt_ArcMain_Idle1, {0,   0, 219, 191}, {131, 178}}, //1 idle 2
-	{swagt_ArcMain_Idle2, {0,   0, 221, 192}, {130, 179}}, //2 idle 3
-	{swagt_ArcMain_Idle3, {0,   0, 217, 196}, {127, 183}}, //3 idle 4
+	{swagt_ArcMain_Idle0, {0,   0, 100,140}, {130, 182}}, //0 idle 1
+	{swagt_ArcMain_Idle1, {0,   0, 100,140}, {130, 182}}, //1 idle 2
+	{swagt_ArcMain_Idle2, {0,   0, 100,140}, {130, 182}}, //2 idle 3
+	{swagt_ArcMain_Idle3, {0,   0, 100,140}, {130, 182}}, //3 idle 4
 	
-	{swagt_ArcMain_LeftA0, {0,   0, 197, 201}, {123, 188}}, //4 left a 1
-	{swagt_ArcMain_LeftA1, {0,   0, 201, 201}, {125, 188}}, //5 left a 2
+	{swagt_ArcMain_LeftA0, {0,   0, 100,140}, {130, 182}}, //4 left a 1
+	{swagt_ArcMain_LeftA1, {0,   0, 100,140}, {130, 182}}, //5 left a 2
 	{swagt_ArcMain_LeftB0, {0,   0, 197, 200}, {122, 188}}, //6 left b 1
 	{swagt_ArcMain_LeftB1, {0,   0, 201, 200}, {125, 188}}, //7 left b 2
 	
-	{swagt_ArcMain_DownA0, {0,   0, 213, 189}, {120, 177}}, //8 down a 1
-	{swagt_ArcMain_DownA1, {0,   0, 213, 190}, {122, 178}}, //9 down a 2
+	{swagt_ArcMain_DownA0, {0,   0, 100,140}, {130, 182}}, //8 down a 1
+	{swagt_ArcMain_DownA1, {0,   0, 100,140}, {130, 182}}, //9 down a 2
 	{swagt_ArcMain_DownB0, {0,   0, 213, 189}, {121, 177}}, //10 down b 1
 	{swagt_ArcMain_DownB1, {0,   0, 213, 190}, {123, 178}}, //11 down b 2
 	
-	{swagt_ArcMain_UpA0, {0,   0, 199, 203}, {117, 190}}, //12 up a 1
-	{swagt_ArcMain_UpA1, {0,   0, 201, 203}, {120, 190}}, //13 up a 2
+	{swagt_ArcMain_UpA0, {0,   0, 100,140}, {130, 182}}, //12 up a 1
+	{swagt_ArcMain_UpA1, {0,   0, 100,140}, {130, 182}}, //13 up a 2
 	{swagt_ArcMain_UpB0, {0,   0, 197, 204}, {117, 191}}, //14 up b 1
 	{swagt_ArcMain_UpB1, {0,   0, 201, 202}, {119, 190}}, //15 up b 2
 	
-	{swagt_ArcMain_RightA0, {0,   0, 239, 187}, {128, 174}}, //16 right a 1
-	{swagt_ArcMain_RightA1, {0,   0, 239, 191}, {130, 178}}, //17 right a 2
+	{swagt_ArcMain_RightA0, {0,   0, 100,140}, {130, 182}}, //16 right a 1
+	{swagt_ArcMain_RightA1, {0,   0, 100,140}, {130, 182}}, //17 right a 2
 	{swagt_ArcMain_RightB0, {0,   0, 239, 189}, {128, 176}}, //18 right b 1
 	{swagt_ArcMain_RightB1, {0,   0, 239, 191}, {130, 178}}, //19 right b 2
 };
@@ -156,10 +156,10 @@ Character *Char_swagt_New(fixed_t x, fixed_t y)
 	//Set character information
 	this->character.spec = 0;
 	
-	this->character.health_i = 5;
+	this->character.health_i = 1;
 	
-	this->character.focus_x = FIXED_DEC(25,1);
-	this->character.focus_y = FIXED_DEC(-100,1);
+	this->character.focus_x = FIXED_DEC(-10,1);
+	this->character.focus_y = FIXED_DEC(-140,1);
 	this->character.focus_zoom = FIXED_DEC(1,1);
 	
 	//Load art
