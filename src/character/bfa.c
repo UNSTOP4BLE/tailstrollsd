@@ -137,6 +137,12 @@ static const Animation char_bfa_anim[PlayerAnim_Max] = {
 	{1, (const u8[]){16, 18, 18, 19, ASCR_BACK, 1}},     //CharAnim_RightAlt
 	{2, (const u8[]){20, 21, 22, ASCR_BACK, 1}},         //PlayerAnim_Peace
 	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_Sweat
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_LeftAlt2
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_DownAlt2
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_UpAlt2
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_RightAlt
+
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idlealt}}, //CharAnim_altIdle
 	
 	{5, (const u8[]){23, 24, 25, 26, 26, 26, 26, 26, 26, 26, ASCR_CHGANI, PlayerAnim_Dead1}}, //PlayerAnim_Dead0
 	{5, (const u8[]){26, ASCR_REPEAT}},                                                       //PlayerAnim_Dead1
@@ -387,7 +393,7 @@ Character *Char_bfa_New(fixed_t x, fixed_t y)
 	//Set character information
 	this->character.spec = CHAR_SPEC_MISSANIM;
 	
-	this->character.health_i = 0;
+	this->character.health_i = 3;
 	
 	this->character.focus_x = FIXED_DEC(-50,1);
 	this->character.focus_y = FIXED_DEC(-90,1);

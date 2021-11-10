@@ -33,7 +33,7 @@
 	{ //StageId_1_3 (Dadbattle)
 		//Characters
 		{Char_bfa_New,    FIXED_DEC(300,1),  FIXED_DEC(120,1)},
-		{Char_sonic_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
+		{Char_sonic_New, FIXED_DEC(70,1),  FIXED_DEC(150,1)},
 		{Char_GF_New,     FIXED_DEC(110,1),    FIXED_DEC(0,1)},
 		
 		//Stage background

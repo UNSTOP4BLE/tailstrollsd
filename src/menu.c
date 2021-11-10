@@ -249,11 +249,12 @@ void Menu_Load(MenuPage page)
 {		
 	//Load menu assets
 	IO_Data menu_arc = IO_Read("\\MENU\\MENU.ARC;1");
+	Gfx_LoadTex(&menu.tex_titlebg, Archive_Find(menu_arc, "titlebg.tim"), 0);
 	Gfx_LoadTex(&menu.tex_back,  Archive_Find(menu_arc, "back.tim"),  0);
 	Gfx_LoadTex(&menu.tex_ng,    Archive_Find(menu_arc, "ng.tim"),    0);
 	Gfx_LoadTex(&menu.tex_story, Archive_Find(menu_arc, "story.tim"), 0);
 	Gfx_LoadTex(&menu.tex_title, Archive_Find(menu_arc, "title.tim"), 0);
-	Gfx_LoadTex(&menu.tex_titlebg, Archive_Find(menu_arc, "titlebg.tim"), 0);
+	
 	Mem_Free(menu_arc);
 	
 	FontData_Load(&menu.font_bold, Font_Bold);
@@ -455,13 +456,14 @@ void Menu_Tick(void)
 			
 			RECT logo_src = {0, 0, 176, 112};
 			RECT logo_dst = {
-				175 - x_rad + (SCREEN_WIDEADD2 >> 1),
+				160 - x_rad + (SCREEN_WIDEADD2 >> 1),
 				68 - y_rad,
 				x_rad << 1,
 				y_rad << 1
 			};
+
 			Gfx_DrawTex(&menu.tex_title, &logo_src, &logo_dst);
-			
+
 			if (menu.page_state.title.logo_bump > 0)
 				if ((menu.page_state.title.logo_bump -= timer_dt) < 0)
 					menu.page_state.title.logo_bump = 0;
@@ -484,6 +486,13 @@ void Menu_Tick(void)
 				RECT press_src = {0, (animf_count & 1) ? 144 : 112, 256, 32};
 				Gfx_BlitTex(&menu.tex_title, &press_src, (SCREEN_WIDTH - 256) / 2, SCREEN_HEIGHT - 48);
 			}
+			
+			//draw menu backkkkkk
+
+			RECT titlebg_src = {0, 0, 255, 255};
+			RECT titlebg_dst = {(SCREEN_WIDTH - 320) >> 1, (SCREEN_HEIGHT - 244) >> 1, 320, 244};
+			Gfx_Tex titlebg_tex;
+			Gfx_DrawTex(&menu.tex_titlebg, &titlebg_src, &titlebg_dst);
 			
 			//Draw Girlfriend
 
@@ -879,7 +888,6 @@ void Menu_Tick(void)
 				{StageId_Clwn_2, "LORD SCOUT", false},
 				{StageId_Clwn_1, "	MENUS", false},
 				{StageId_Clwn_2, "UNSTOPABLE", false},
-				{StageId_Clwn_2, "", false},
 				{StageId_Clwn_1, "	SPRITES AND IMAGES", false},
 				{StageId_Clwn_1, "MR P", false},
 				{StageId_Clwn_1, "UNSTOPABLE", false},
@@ -921,17 +929,6 @@ void Menu_Tick(void)
 						menu.select++;
 					else
 						menu.select = 0;
-				}
-				
-				//Select option if cross is pressed
-				if (pad_state.press & (PAD_START | PAD_CROSS))
-				{
-					menu.next_page = MenuPage_Stage;
-					menu.page_param.stage.id = menu_options[menu.select].stage;
-					menu.page_param.stage.story = true;
-					if (!menu_options[menu.select].difficulty)
-						menu.page_param.stage.diff = StageDiff_Hard;
-					Trans_Start();
 				}
 				
 				//Return to main menu if circle is pressed
