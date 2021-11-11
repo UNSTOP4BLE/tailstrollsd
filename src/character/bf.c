@@ -80,30 +80,30 @@ typedef struct
 
 //Boyfriend player definitions
 static const CharFrame char_bf_frame[] = {
-	{BF_ArcMain_Idle, {  0,   0, 128, 128}, { 105,  95}}, //0 idle 1
-	{BF_ArcMain_Idle, {128,   0, 128, 128}, { 106,  96}}, //1 idle 2
-	{BF_ArcMain_Idle, {  0, 128, 128, 128}, { 105,  97}}, //2 idle 3
-	{BF_ArcMain_Idle, {128, 128, 128, 128}, { 105,  99}}, //3 idle 4
+	{BF_ArcMain_Idle, {  0,   0, 128, 128}, { 100,  95}}, //0 idle 1
+	{BF_ArcMain_Idle, {128,   0, 128, 128}, { 101,  96}}, //1 idle 2
+	{BF_ArcMain_Idle, {  0, 128, 128, 128}, { 100,  97}}, //2 idle 3
+	{BF_ArcMain_Idle, {128, 128, 128, 128}, { 100,  99}}, //3 idle 4
 	
 	{BF_ArcMain_Hit0,  {  0,   0, 128, 128}, { 98,  97}}, //4 left 1
 	{BF_ArcMain_Hit0,  {128,   0, 128, 128}, { 99,  97}}, //5 left 2
 	{BF_ArcMain_Miss0, {  0,   0, 128, 128}, { 89, 100}}, //6 left miss 1
 	{BF_ArcMain_Miss0, {128,   0, 128, 128}, { 88, 107}}, //7 left miss 2
 	
-	{BF_ArcMain_Hit0,  {  0, 128, 128, 128}, { 93,  92}}, //8 down 1
-	{BF_ArcMain_Hit0,  {128, 128, 128, 128}, { 95,  93}}, //9 down 2
+	{BF_ArcMain_Hit0,  {  0, 128, 128, 128}, { 99,  90}}, //8 down 1
+	{BF_ArcMain_Hit0,  {128, 128, 128, 128}, { 101,  91}}, //9 down 2
 	{BF_ArcMain_Miss0, {  0, 128, 128, 128}, { 91,  98}}, //10 down miss 1
 	{BF_ArcMain_Miss0, {128, 128, 128, 128}, { 92,  97}}, //11 down miss 2
 	
-	{BF_ArcMain_Hit1,  {  0,   0, 128, 128}, { 88, 108}}, //12 up 1
-	{BF_ArcMain_Hit1,  {128,   0, 128, 128}, { 98, 109}}, //13 up 2
-	{BF_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 122}}, //14 up miss 1
-	{BF_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 123}}, //15 up miss 2
+	{BF_ArcMain_Hit1,  {  0,   0, 128, 128}, { 78, 108}}, //12 up 1
+	{BF_ArcMain_Hit1,  {128,   0, 128, 128}, { 88, 109}}, //13 up 2
+	{BF_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 112}}, //14 up miss 1
+	{BF_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 113}}, //15 up miss 2
 	
-	{BF_ArcMain_Hit1,  {  0, 128, 128, 128}, { 75,  99}}, //16 right 1
-	{BF_ArcMain_Hit1,  {128, 128, 128, 128}, { 75,  99}}, //17 right 2
-	{BF_ArcMain_Miss1, {  0, 128, 128, 128}, { 98, 108}}, //18 right miss 1
-	{BF_ArcMain_Miss1, {128, 128, 128, 128}, { 99, 108}}, //19 right miss 2
+	{BF_ArcMain_Hit1,  {  0, 128, 128, 128}, { 88,  99}}, //16 right 1
+	{BF_ArcMain_Hit1,  {128, 128, 128, 128}, { 88,  99}}, //17 right 2
+	{BF_ArcMain_Miss1, {  0, 128, 128, 128}, { 80, 108}}, //18 right miss 1
+	{BF_ArcMain_Miss1, {128, 128, 128, 128}, { 80, 108}}, //19 right miss 2
 	
 	{BF_ArcMain_Peace, {  0,   0, 128, 128}, { 53,  98}}, //20 peace 1
 	{BF_ArcMain_Peace, {128,   0, 128, 128}, { 53,  97}}, //21 peace 2
@@ -143,6 +143,8 @@ static const Animation char_bf_anim[PlayerAnim_Max] = {
 	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_RightAlt
 
 	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idlealt}}, //CharAnim_altIdle
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idlealt}}, //CharAnim_altIdle
+
 	{5, (const u8[]){23, 24, 25, 26, 26, 26, 26, 26, 26, 26, ASCR_CHGANI, PlayerAnim_Dead1}}, //PlayerAnim_Dead0
 	{5, (const u8[]){26, ASCR_REPEAT}},                                                       //PlayerAnim_Dead1
 	{3, (const u8[]){27, 28, 29, 30, 30, 30, 30, 30, 30, 30, ASCR_CHGANI, PlayerAnim_Dead3}}, //PlayerAnim_Dead2

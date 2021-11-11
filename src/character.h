@@ -25,11 +25,12 @@ typedef enum
 	CharAnim_Down,  CharAnim_DownAlt,
 	CharAnim_Up,    CharAnim_UpAlt,
 	CharAnim_Right,   CharAnim_RightAlt,
-	CharAnim_LeftAltB,
-	CharAnim_DownAltB,
-	CharAnim_UpAltB,
-	CharAnim_RightAltB,
+	CharAnim_LeftC,
+	CharAnim_DownC,
+	CharAnim_UpC,
+	CharAnim_RightC,
 	CharAnim_Idlealt,
+	CharAnim_Idleb,
 	
 	CharAnim_Max //Max standard/shared animation
 } CharAnim;

@@ -22,10 +22,10 @@
 #include "object/splash.h"
 
 //Stage constants
-//#define STAGE_PERFECT //Play all notes perfectly
+#define STAGE_PERFECT //Play all notes perfectly
 //#define STAGE_NOHUD //Disable the HUD
 
-//#define STAGE_FREECAM //Freecam
+#define STAGE_FREECAM //Freecam
 
 //#define STAGE_FUNKYFRIDAY //Funky Friday
 
@@ -189,10 +189,10 @@ static void Stage_GetSectionScroll(SectionScroll *scroll, Section *section)
 
 //Note hit detection
 static const CharAnim note_anims[4][3] = {
-	{CharAnim_Left,  CharAnim_LeftAlt,   CharAnim_LeftAltB},
-	{CharAnim_Down,  CharAnim_DownAlt,   CharAnim_DownAltB},
-	{CharAnim_Up,    CharAnim_UpAlt,   CharAnim_UpAltB},
-	{CharAnim_Right, CharAnim_RightAlt, CharAnim_RightAltB},
+	{CharAnim_Left,  CharAnim_LeftAlt,   CharAnim_LeftC},
+	{CharAnim_Down,  CharAnim_DownAlt,   CharAnim_DownC},
+	{CharAnim_Up,    CharAnim_UpAlt,   CharAnim_UpC},
+	{CharAnim_Right, CharAnim_RightAlt, CharAnim_RightC},
 };
 
 static void Stage_HitNote(PlayerState *this, u8 type, fixed_t offset)
@@ -264,10 +264,7 @@ static void Stage_MissNote(PlayerState *this)
 	
 	if (this->combo)
 	{
-		//Kill combo
-		if (this->combo > 5)
-			stage.gf->set_anim(stage.gf, CharAnim_Down); //Cry if we lost a large combo
-		this->combo = 0;
+
 		
 		//Create combo object telling of our lost combo
 		Obj_Combo *combo = Obj_Combo_New(

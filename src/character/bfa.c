@@ -80,30 +80,30 @@ typedef struct
 
 //Boyfriend player definitions
 static const CharFrame char_bfa_frame[] = {
-	{bfa_ArcMain_Idle, {  0,   0, 128, 128}, { 105,  95}}, //0 idle 1
-	{bfa_ArcMain_Idle, {128,   0, 128, 128}, { 106,  96}}, //1 idle 2
-	{bfa_ArcMain_Idle, {  0, 128, 128, 128}, { 105,  97}}, //2 idle 3
-	{bfa_ArcMain_Idle, {128, 128, 128, 128}, { 105,  99}}, //3 idle 4
+	{bfa_ArcMain_Idle, {  0,   0, 128, 128}, { 98,  94}}, //0 idle 1
+	{bfa_ArcMain_Idle, {128,   0, 128, 128}, { 99,  95}}, //1 idle 2
+	{bfa_ArcMain_Idle, {  0, 128, 128, 128}, { 98,  96}}, //2 idle 3
+	{bfa_ArcMain_Idle, {128, 128, 128, 128}, { 98,  98}}, //3 idle 4
 	
 	{bfa_ArcMain_Hit0,  {  0,   0, 128, 128}, { 98,  97}}, //4 left 1
 	{bfa_ArcMain_Hit0,  {128,   0, 128, 128}, { 99,  97}}, //5 left 2
-	{bfa_ArcMain_Miss0, {  0,   0, 128, 128}, { 89, 100}}, //6 left miss 1
-	{bfa_ArcMain_Miss0, {128,   0, 128, 128}, { 88, 107}}, //7 left miss 2
+	{bfa_ArcMain_Miss0, {  0,   0, 128, 128}, { 98,  102}}, //6 left miss 1
+	{bfa_ArcMain_Miss0, {128,   0, 128, 128}, { 99,  102}}, //7 left miss 2
 	
-	{bfa_ArcMain_Hit0,  {  0, 128, 128, 128}, { 93,  92}}, //8 down 1
-	{bfa_ArcMain_Hit0,  {128, 128, 128, 128}, { 95,  93}}, //9 down 2
-	{bfa_ArcMain_Miss0, {  0, 128, 128, 128}, { 91,  98}}, //10 down miss 1
-	{bfa_ArcMain_Miss0, {128, 128, 128, 128}, { 92,  97}}, //11 down miss 2
+	{bfa_ArcMain_Hit0,  {  0, 128, 128, 128}, { 96,  92}}, //8 down 1
+	{bfa_ArcMain_Hit0,  {128, 128, 128, 128}, { 98,  93}}, //9 down 2
+	{bfa_ArcMain_Miss0, {  0, 128, 128, 128}, { 96,  92}}, //10 down miss 1
+	{bfa_ArcMain_Miss0, {128, 128, 128, 128}, { 98,  93}}, //11 down miss 2
 	
-	{bfa_ArcMain_Hit1,  {  0,   0, 128, 128}, { 88, 108}}, //12 up 1
-	{bfa_ArcMain_Hit1,  {128,   0, 128, 128}, { 98, 109}}, //13 up 2
-	{bfa_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 122}}, //14 up miss 1
-	{bfa_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 123}}, //15 up miss 2
+	{bfa_ArcMain_Hit1,  {  0,   0, 128, 128}, { 88, 110}}, //12 up 1
+	{bfa_ArcMain_Hit1,  {128,   0, 128, 128}, { 88, 111}}, //13 up 2
+	{bfa_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 110}}, //14 up miss 1
+	{bfa_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 111}}, //15 up miss 2
 	
-	{bfa_ArcMain_Hit1,  {  0, 128, 128, 128}, { 75,  99}}, //16 right 1
-	{bfa_ArcMain_Hit1,  {128, 128, 128, 128}, { 75,  99}}, //17 right 2
-	{bfa_ArcMain_Miss1, {  0, 128, 128, 128}, { 98, 108}}, //18 right miss 1
-	{bfa_ArcMain_Miss1, {128, 128, 128, 128}, { 99, 108}}, //19 right miss 2
+	{bfa_ArcMain_Hit1,  {  0, 128, 128, 128}, { 85,  97}}, //16 right 1
+	{bfa_ArcMain_Hit1,  {128, 128, 128, 128}, { 85,  97}}, //17 right 2
+	{bfa_ArcMain_Miss1, {  0, 128, 128, 128}, { 85, 97}}, //18 right miss 1
+	{bfa_ArcMain_Miss1, {128, 128, 128, 128}, { 85, 97}}, //19 right miss 2
 	
 	{bfa_ArcMain_Peace, {  0,   0, 128, 128}, { 53,  98}}, //20 peace 1
 	{bfa_ArcMain_Peace, {128,   0, 128, 128}, { 53,  97}}, //21 peace 2
@@ -143,6 +143,7 @@ static const Animation char_bfa_anim[PlayerAnim_Max] = {
 	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idle}},       //PlayerAnim_RightAlt
 
 	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idlealt}}, //CharAnim_altIdle
+	{2, (const u8[]){ASCR_CHGANI, CharAnim_Idleb}}, //CharAnim_altIdle
 	
 	{5, (const u8[]){23, 24, 25, 26, 26, 26, 26, 26, 26, 26, ASCR_CHGANI, PlayerAnim_Dead1}}, //PlayerAnim_Dead0
 	{5, (const u8[]){26, ASCR_REPEAT}},                                                       //PlayerAnim_Dead1
@@ -159,7 +160,7 @@ static const Animation char_bfa_anim[PlayerAnim_Max] = {
 void Char_bfa_SetFrame(void *user, u8 frame)
 {
 	Char_bfa *this = (Char_bfa*)user;
-	
+
 	//Check if this is a new frame
 	if (frame != this->frame)
 	{
@@ -173,7 +174,21 @@ void Char_bfa_SetFrame(void *user, u8 frame)
 void Char_bfa_Tick(Character *character)
 {
 	Char_bfa *this = (Char_bfa*)character;
-	
+	//zoomi
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1664)
+	{
+		this->character.focus_x = FIXED_DEC(-50,1);
+		this->character.focus_y = FIXED_DEC(-60,1);
+		this->character.focus_zoom = FIXED_DEC(15,10);
+	}
+
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1920)
+	{
+		this->character.focus_x = FIXED_DEC(-50,1);
+		this->character.focus_y = FIXED_DEC(-90,1);
+		this->character.focus_zoom = FIXED_DEC(1,1);
+	}
+
 	//Handle animation updates
 	if ((character->pad_held & (INPUT_LEFT | INPUT_DOWN | INPUT_UP | INPUT_RIGHT)) == 0 ||
 	    (character->animatable.anim != CharAnim_Left &&

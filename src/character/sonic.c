@@ -49,6 +49,11 @@ enum
 	sonic_ArcMain_Idlealt2,
 	sonic_ArcMain_Idlealt3,
 
+	sonic_ArcMain_Idleb0,
+	sonic_ArcMain_Idleb1,
+	sonic_ArcMain_Idleb2,
+	sonic_ArcMain_Idleb3,
+
 	sonic_Arc_Max,
 };
 
@@ -104,6 +109,10 @@ static const CharFrame char_sonic_frame[] = {
 	{sonic_ArcMain_Idlealt1, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idlealt2, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idlealt3, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idleb0, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idleb1, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idleb2, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idleb3, {0,   0, 110, 142}, {130, 182}},
 
 };
 
@@ -117,11 +126,12 @@ static const Animation char_sonic_anim[CharAnim_Max] = {
 	{2, (const u8[]){14, 15, ASCR_CHGANI, CharAnim_Idlealt}},         //CharAnim_UpAlt
 	{2, (const u8[]){16, 17, ASCR_CHGANI, 1}},         //CharAnim_Right
 	{2, (const u8[]){18, 19, ASCR_CHGANI, CharAnim_Idlealt}},         //CharAnim_RightAlt
-	{2, (const u8[]){ 20,  21, ASCR_CHGANI, CharAnim_Idlealt}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 22,  23, ASCR_CHGANI, CharAnim_Idlealt}},	//CharAnim_DownAltc
-	{2, (const u8[]){ 24,  25, ASCR_CHGANI, CharAnim_Idlealt}},	//CharAnim_UpAltc
-	{2, (const u8[]){ 26,  27, ASCR_CHGANI, CharAnim_Idlealt}},	//CharAnimCharAnim_RightAltc
+	{2, (const u8[]){ 20,  21, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnim_LeftAltc
+	{2, (const u8[]){ 22,  23, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnim_DownAltc
+	{2, (const u8[]){ 24,  25, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnim_UpAltc
+	{2, (const u8[]){ 26,  27, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnimCharAnim_RightAltc
 	{2, (const u8[]){ 28,  29,  30,  31, ASCR_CHGANI,  CharAnim_Idlealt}}, //CharAnim_altIdle
+	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  CharAnim_Idleb}}, //CharAnim_altIdle2
 };
 
 //Christmas Parents functions
@@ -142,7 +152,21 @@ void Char_sonic_SetFrame(void *user, u8 frame)
 void Char_sonic_Tick(Character *character)
 {
 	Char_sonic *this = (Char_sonic*)character;
-	
+	//zoomi
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1664)
+	{
+		this->character.focus_x = FIXED_DEC(-10,1);
+		this->character.focus_y = FIXED_DEC(-100,1);
+		this->character.focus_zoom = FIXED_DEC(15,10);
+	}
+
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1920)
+	{
+		this->character.focus_x = FIXED_DEC(-10,1);
+		this->character.focus_y = FIXED_DEC(-140,1);
+		this->character.focus_zoom = FIXED_DEC(1,1);
+	}
+
 	//Perform idle dance
 	if ((character->pad_held & (INPUT_LEFT | INPUT_DOWN | INPUT_UP | INPUT_RIGHT)) == 0)
 		Character_PerformIdle(character);
@@ -155,6 +179,9 @@ if (stage.note_scroll >= 0)
         switch (stage.stage_id)
         {
         case StageId_1_3: //sconc alt idlethingy
+
+		                if ((stage.song_step) == 0)
+                        character->set_anim(character, CharAnim_RightC);
 				//rapper sonic 1st switch
                 if ((stage.song_step) == 845)
                         character->set_anim(character, CharAnim_Idlealt);
@@ -166,12 +193,10 @@ if (stage.note_scroll >= 0)
                 if ((stage.song_step) == 1152)
                         character->set_anim(character, CharAnim_Idlealt);
 				break;
-                if ((stage.song_step) == 1408)
-                        character->set_anim(character, CharAnim_Idle);
-				break;
 				//forced sonic 1st and last switch ((not done))
-
-
+                if ((stage.song_step) == 1408)
+                        character->set_anim(character, CharAnim_Idleb);
+				break;
 				//(instert forced sonic swap code here)
 
 
@@ -231,6 +256,8 @@ Character *Char_sonic_New(fixed_t x, fixed_t y)
 	this->character.focus_x = FIXED_DEC(-10,1);
 	this->character.focus_y = FIXED_DEC(-140,1);
 	this->character.focus_zoom = FIXED_DEC(1,1);
+
+	
 	
 	//Load art
 	this->arc_main = IO_Read("\\CHAR\\SONIC.ARC;1");
@@ -268,6 +295,10 @@ Character *Char_sonic_New(fixed_t x, fixed_t y)
 		"idlealt1.tim",   //sonic_ArcMain_Idle1
 		"idlealt2.tim",   //sonic_ArcMain_Idle2
 		"idlealt3.tim",   //sonic_ArcMain_Idle3
+		"idleb0.tim",   //sonic_ArcMain_Idle0
+		"idleb1.tim",   //sonic_ArcMain_Idle1
+		"idleb2.tim",   //sonic_ArcMain_Idle2
+		"idleb3.tim",   //sonic_ArcMain_Idle3
 
 		NULL
 	};
