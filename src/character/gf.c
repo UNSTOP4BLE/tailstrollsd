@@ -46,22 +46,22 @@ typedef struct
 
 //GF character definitions
 static const CharFrame char_gf_frame[] = {
-	{GF_ArcMain_BopLeft, {  0,   0,  74, 103}, { 40,  73}}, //0 bop left 1
-	{GF_ArcMain_BopLeft, { 74,   0,  73, 102}, { 39,  73}}, //1 bop left 2
-	{GF_ArcMain_BopLeft, {147,   0,  73, 102}, { 39,  73}}, //2 bop left 3
-	{GF_ArcMain_BopLeft, {  0, 103,  73, 103}, { 39,  74}}, //3 bop left 4
-	{GF_ArcMain_BopLeft, { 73, 102,  82, 105}, { 43,  76}}, //4 bop left 5
-	{GF_ArcMain_BopLeft, {155, 102,  81, 105}, { 43,  76}}, //5 bop left 6
+	{GF_ArcMain_BopLeft, {  1,   0,  74, 103}, { 43,  76}}, //0 bop left 1
+	{GF_ArcMain_BopLeft, { 80,   0,  79, 105}, { 44,  76}}, //1 bop left 2
+	{GF_ArcMain_BopLeft, {159,   0,  79, 105}, { 43,  76}}, //2 bop left 3
+	{GF_ArcMain_BopLeft, {  0, 105,  78, 105}, { 43,  77}}, //3 bop left 4
+	{GF_ArcMain_BopLeft, { 79, 105,  78, 105}, { 44,  76}}, //4 bop left 5
+	{GF_ArcMain_BopLeft, {157, 106,  78, 105}, { 44,  77}}, //5 bop left 6
 	
-	{GF_ArcMain_BopRight, {  0,   0,  81, 103}, { 43,  74}}, //6 bop right 1
-	{GF_ArcMain_BopRight, { 81,   0,  81, 103}, { 43,  74}}, //7 bop right 2
-	{GF_ArcMain_BopRight, {162,   0,  80, 103}, { 42,  74}}, //8 bop right 3
-	{GF_ArcMain_BopRight, {  0, 103,  79, 103}, { 41,  74}}, //9 bop right 4
-	{GF_ArcMain_BopRight, { 79, 103,  73, 105}, { 35,  76}}, //10 bop right 5
-	{GF_ArcMain_BopRight, {152, 103,  74, 104}, { 35,  75}}, //11 bop right 6
+	{GF_ArcMain_BopRight, {  0,   0,  77, 104}, { 42,  75}}, //6 bop right 1
+	{GF_ArcMain_BopRight, { 78,   0,  76, 104}, { 41,  75}}, //7 bop right 2
+	{GF_ArcMain_BopRight, {154,   0,  76, 104}, { 41,  76}}, //8 bop right 3
+	{GF_ArcMain_BopRight, {  0, 104,  77, 107}, { 37,  78}}, //9 bop right 4
+	{GF_ArcMain_BopRight, { 77, 105,  77, 106}, { 38,  77}}, //10 bop right 5
+	{GF_ArcMain_BopRight, {154, 104,  78, 106}, { 38,  77}}, //11 bop right 6
 	
-	{GF_ArcMain_Cry, {  0,   0,  73, 101}, { 37,  73}}, //12 cry
-	{GF_ArcMain_Cry, { 73,   0,  73, 101}, { 37,  73}}, //13 cry
+	{GF_ArcMain_Cry, {  0,   0,  236, 224}, { 124, 125}}, //12 cry
+	{GF_ArcMain_Cry, {  0,   0,  236, 224}, { 124, 125}}, //12 cry
 };
 
 static const Animation char_gf_anim[CharAnim_Max] = {
@@ -72,7 +72,7 @@ static const Animation char_gf_anim[CharAnim_Max] = {
 	{0, (const u8[]){ASCR_CHGANI, CharAnim_Left}},                           //CharAnim_DownAlt
 	{0, (const u8[]){ASCR_CHGANI, CharAnim_Left}},                           //CharAnim_Up
 	{0, (const u8[]){ASCR_CHGANI, CharAnim_Left}},                           //CharAnim_UpAlt
-	{1, (const u8[]){ 6,  6,  7,  7,  8,  8,  9, 10, 10, 11, ASCR_BACK, 1}}, //CharAnim_Right
+	{1, (const u8[]){ 6,  6,  7,  7,  7,   8,  8,   8,  9, 10, 10, 11, ASCR_BACK, 1}}, //CharAnim_Right
 	{0, (const u8[]){ASCR_CHGANI, CharAnim_Left}},                           //CharAnim_RightAlt
 };
 
