@@ -1,0 +1,1863 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+O sistema n�o pode encontrar o caminho especificado.
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/object/splash.o -MF src/object/splash.dep src/object/splash.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/object/combo.o -MF src/object/combo.dep src/object/combo.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/object.o -MF src/object.dep src/object.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/gf.o -MF src/character/gf.dep src/character/gf.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/swagt.o -MF src/character/swagt.dep src/character/swagt.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/sonic.o -MF src/character/sonic.dep src/character/sonic.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/xmasp.o -MF src/character/xmasp.dep src/character/xmasp.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/speaker.o -MF src/character/speaker.dep src/character/speaker.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/bfa.o -MF src/character/bfa.dep src/character/bfa.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character/bf.o -MF src/character/bf.dep src/character/bf.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/swap.o -MF src/swap.dep src/swap.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/character.o -MF src/character.dep src/character.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/animation.o -MF src/animation.dep src/animation.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/stage/sonkbg.o -MF src/stage/sonkbg.dep src/stage/sonkbg.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/stage/swagbg.o -MF src/stage/swagbg.dep src/stage/swagbg.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/stage/week4.o -MF src/stage/week4.dep src/stage/week4.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/movie.o -MF src/psx/movie.dep src/psx/movie.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/timer.o -MF src/psx/timer.dep src/psx/timer.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/pad.o -MF src/psx/pad.dep src/psx/pad.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/audio.o -MF src/psx/audio.dep src/psx/audio.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/gfx.o -MF src/psx/gfx.dep src/psx/gfx.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/io.o -MF src/psx/io.dep src/psx/io.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/psx/psx.o -MF src/psx/psx.dep src/psx/psx.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/stage.o -MF src/stage.dep src/stage.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/menu.o -MF src/menu.dep src/menu.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/loadscr.o -MF src/loadscr.dep src/loadscr.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/trans.o -MF src/trans.dep src/trans.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/font.o -MF src/font.dep src/font.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/archive.o -MF src/archive.dep src/archive.c
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/random.o -MF src/random.dep src/random.c
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/mutil.o -MF src/mutil.dep src/mutil.c
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/mem.o -MF src/mem.dep src/mem.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+mipsel-none-elf-gcc -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Ic:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//psyq/include -g -O3  -M -MT src/main.o -MF src/main.dep src/main.c
+ 
+mipsel-none-elf-gcc: error: Igor/Desktop/tails/tailstrollsd/mips//psyq/include: No such file or directory
+ 
+make: *** No rule to make target 'src/main.dep', needed by 'dep'.  Stop.
+ 
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun Nov 14 10:27:08 2021
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Danilo e Igor
+# environment
+TMPDIR = C:\TEMP
+# makefile (from 'mips/common.mk', line 41)
+CPPFLAGS_Release = -O3
+# environment
+LOCALAPPDATA = C:\Users\Danilo e Igor\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-76514840-13f0-4542-8702-05311cd74781-sock
+# env 
+ironment
+VSCODE_CWD = C:\PSXFunkin-shaggy-main\src\character
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.1\lib\
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8824_M 
+SWFWROIWOEAVBSY
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Danilo e Igor\AppData\Roaming\Code\CachedData\3a6960b964327f0e3882ce18fcebd07ed191b316
+# environment
+LANG = C
+# default
+.LOA 
+DED := 
+# environment
+TMP = C:\Users\DANILO~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'mips/common.mk', line 29)
+ARCHFLAGS = -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'mips/common.mk', line 10)
+FORMAT = elf32-littlemips
+# environment
+ONEDRIVE = C:\Users\Danilo e Igor\OneDrive
+# makefile
+CURDIR := c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd
+# environment
+VSCODE_PI 
+PE_LOGGING = true
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.1\x86\lib\
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 4)
+SRCS = src/main.c src/mem.c src/mutil.c src/random.c src/archive.c src/font.c src/trans.c src/loadscr.c src/menu.c src/stage.c src/psx/psx.c src/psx/io.c src/psx/gfx.c src/psx/audio.c src/psx/pad.c src/psx/timer.c src/psx/movie.c src/stage/week4.c src/stage/swagbg.c src/stage/sonkbg.c src/animation.c src/character.c src/swap.c src/character/bf.c src/character/bfa.c src/character/speaker.c src/character/xmasp.c src/character/sonic.c src/character/swagt.c src/character/gf.c src/object.c src/object/combo.c src/object/splash.c mips/common/crt0/crt0.s
+# makefile (from 'mips/common.mk', line 23)
+LDSCRIPT := c:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//default.ld -Tc:/Users/ c:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//default.ld ./ c:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips//default.ld Igor/Desktop/tails/tailstrollsd/mips//ps-exe.ld
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# makefile (from 'mips/common.mk', line 3)
+HAS_LINUX_MIPS_GCC = $(shell which mipsel-linux-gnu-gcc > /dev/null 2> /dev/null && echo true || echo false)
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'mips/common/crt0/crt0.dep', line 1)
+MAKEFILE_LIST := Makefile mips/common.mk mips/common/crt0/crt0.dep
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 8824
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+NEKO_INSTPATH = C:\HaxeToolkit\neko
+# automatic
+*F = $(notdir $*)
+# environment
+G032TMP = C:\TEMP
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+HAXEPATH = C:\HaxeToolkit\haxe
+# default
+MAKE_HOST := Windows32
+# makefile (from 'mips/common.mk', line 53)
+OBJS = $(addsuffix .o, $(basename $(SRCS)))
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Danilo e Igor
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\psyq\g++-mipsel-none-elf-10.3.0\bin;C:\Program Files\Git\cmd;C:\HaxeToolkit\haxe;C:\HaxeToolkit\neko;;C:\Users\Danilo e Igor\AppData\Local\Programs\Microsoft VS Code\bin
+# environment
+COMPUTERNAME = LAPTOP-85KOECI1
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'mips/common.mk', line 42)
+LDFLAGS_Release = -O3
+# makefile (from 'mips/common.mk', line 26)
+USE_FUNCTION_SECTIONS = true
+# makefile (from 'mips/common.mk', line 9)
+PREFIX = mipsel-none-elf
+# environment
+LOGONSERVER = \\LAPTOP-85KOECI1
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Danilo e Igor
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-85KOECI1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# makefile (from 'mips/common.mk', line 50)
+CPPFLAGS = -Wall -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes $(ARCHFLAGS) -I$(ROOTDIR)/psyq/include -g $(CPPFLAGS_$(BUILD))
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.1\
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 2)
+TYPE = ps-exe
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'mips/common.mk', line 1)
+BUILD = Release
+# makefile (from 'mips/common.mk', line 51)
+LDFLAGS = -Wl,--start-group -lapi -lc2 -lcd -lds -letc -lgpu -lpad -lpress -lsnd -lspu -flto -Wl,--end-group -Wl,-Map=$(BINDIR)$(TARGET).map -nostdlib -T$(LDSCRIPT) -static -Wl,--gc-sections $(ARCHFLAGS) -Wl,--oformat=$(FORMAT) -L$(ROOTDIR)/psyq/lib -g $(LDFLAGS_$(BUILD))
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-85KOECI1
+# environment
+NUMBER_OF_PROCESSORS = 2
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Danilo e Igor\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X 
+86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\DANILO~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\993d5172242ee462e11030f2d8bc6e8b-1.62.2-main-sock
+# makefile (from 'mips/common.mk', line 44)
+CPPFLAGS_Debug = -Og
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'mips/common.mk', line 86)
+DEPS :=    src/main.dep    src/mem.dep    src/mutil.dep    src/random.dep    src/archive.dep    src/font.dep    src/trans.dep    src/loadscr.dep    src/menu.dep    src/stage.dep    src/psx/psx.dep    src/psx/io.dep    src/psx/gfx.dep    src/psx/audio.dep    src/psx/pad.dep    src/psx/timer.dep    src/psx/movie.dep    src/stage/week4.dep    src/stage/swagbg.dep    src/stage/sonkbg.dep    src/animation.dep    src/character.dep    src/swap.dep    src/character/bf.dep    src/character/bfa.dep    src/character/speaker.dep    src/character/xmasp.dep    src/character/sonic.dep    src/character/swagt.dep    src/character/gf.dep    src/object.dep    src/object/combo.dep    src/object/splash.dep    mips/common/crt0/crt0.dep
+# environment
+GO32 = DPMISTACK 1000000
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 1)
+TARGET = funkin
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION =  
+8e09
+# makefile (from 'mips/common.mk', line 16)
+CXX = $(PREFIX)-g++
+# makefile (from 'mips/common.mk', line 15)
+CC = $(PREFIX)-gcc
+# makefile (from 'mips/common.mk', line 13)
+ROOTDIR := c:/Users/ ./ Igor/Desktop/tails/tailstrollsd/mips/
+# makefile (from 'mips/common.mk', line 45)
+CPPFLAGS_Coverage = -Og
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=124/1024=12%, Rehash=0, Collisions=32/649=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/character (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd/src/character, mtime 1636896294): 16 files, no impossibilities so far.
+# src (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd/src, mtime 1636896294): 49 files, no impossibilities so far.
+# . (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd, mtime 1636896403): 23 files, no impossibilities.
+# src/psx (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd/src/psx, mtime 
+ 1636896294): 9 files, no impossibilities so far.
+# src/stage (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd/src/stage, mtime 1636896294): 7 files, no impossibilities so far.
+# src/object (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd/src/object, mtime 1636896294): 5 files, no impossibilities so far.
+# mips/common/crt0 (key c:/Users/Danilo e Igor/Desktop/tails/tailstrollsd/mips/common/crt0, mtime 1636896409): 5 files, no impossibilities.
+
+# 114 files, no impossibilities in 7 directories.
+
+# Implicit Rules
+
+%.o: %.s
+#  recipe to execute (from 'mips/common.mk', line 68):
+	$(CC) $(ARCHFLAGS) -I$(ROOTDIR) -g -c -o $@ $<
+
+%.dep: %.c
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.cpp
+#  recipe to execute (from 'mips/common.mk', line 74):
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.cc
+#  recipe to execute (from 'mips/common.mk', line 77):
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.s
+#  recipe to execute (from 'mips/common.mk', line 81):
+	touch $@
+
+# 5 implicit rules, 0 (0.0%) terminal.
+# Files
+
+src/stage/swagbg.dep: src/stage/swagbg.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/swagbg'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/stage/swagbg.dep
+# automatic
+# * := src/stage/swagbg
+# automatic
+# < := src/stage/swagbg.c
+# automatic
+# + := src/stage/swagbg.c
+# automatic
+# % := 
+# automatic
+# ^ := src/stage/swagbg.c
+# automatic
+# ? := src/stage/swagbg.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+funkin.ps-exe: funkin.elf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'mips/common.mk', line 58):
+	$(PREFIX)-objcopy $(addprefix -R , $(OVERLAYSECTION)) -O binary $< $@
+	$(foreach ovl, $(OVERLAYSECTION), $(PREFIX)-objcopy -j $(ovl) -O binary $< $(BINDIR)Overlay$(ovl);)
+
+# Not a target:
+src/character/xmasp.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/gf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/psx/gfx.dep: src/psx/gfx.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/gfx'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/gfx.dep
+# automatic
+# * := src/psx/gfx
+# automatic
+# < := src/psx/gfx.c
+# automatic
+# + := src/psx/gfx.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/gfx.c
+# automatic
+# ? := src/psx/gfx.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/psx/audio.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/psx/io.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/psx/pad.dep: src/psx/pad.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/pad'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/pad.dep
+# automatic
+# * := src/psx/pad
+# automatic
+# < := src/psx/pad.c
+# automatic
+# + := src/psx/pad.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/pad.c
+# automatic
+# ? := src/psx/pad.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/psx/audio.dep: src/psx/audio.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/audio'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/audio.dep
+# automatic
+# * := src/psx/audio
+# automatic
+# < := src/psx/audio.c
+# automatic
+# + := src/psx/audio.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/audio.c
+# automatic
+# ? := src/psx/audio.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/stage/week4.dep: src/stage/week4.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week4'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/stage/week4.dep
+# automatic
+# * := src/stage/week4
+# automatic
+# < := src/stage/week4.c
+# automatic
+# + := src/stage/week4.c
+# automatic
+# % := 
+# automatic
+# ^ := src/stage/week4.c
+# automatic
+# ? := src/stage/week4.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/archive.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/object/splash.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/swagbg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/stage.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx/gfx.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/stage/sonkbg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/character/sonic.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx/pad.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/stage/swagbg.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/character/gf.dep: src/character/gf.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/gf'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/gf.dep
+# automatic
+# * := src/character/gf
+# automatic
+# < := src/character/gf.c
+# automatic
+# + := src/character/gf.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/gf.c
+# automatic
+# ? := src/character/gf.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/trans.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week4.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/psx/io.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/character/xmasp.dep: src/character/xmasp.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/xmasp'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/xmasp.dep
+# automatic
+# * := src/character/xmasp
+# automatic
+# < := src/character/xmasp.c
+# automatic
+# + := src/character/xmasp.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/xmasp.c
+# automatic
+# ? := src/character/xmasp.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/psx/pad.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/swap.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/animation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/animation.dep: src/animation.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/animation'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/animation.dep
+# automatic
+# * := src/animation
+# automatic
+# < := src/animation.c
+# automatic
+# + := src/animation.c
+# automatic
+# % := 
+# automatic
+# ^ := src/animation.c
+# automatic
+# ? := src/animation.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:48
+#  File has been updated.
+#  Successfully updated.
+
+src/stage.dep: src/stage.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/stage.dep
+# automatic
+# * := src/stage
+# automatic
+# < := src/stage.c
+# automatic
+# + := src/stage.c
+# automatic
+# % := 
+# automatic
+# ^ := src/stage.c
+# automatic
+# ? := src/stage.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/mem.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mips/common.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:53
+#  File has been updated.
+#  Successfully updated.
+
+dep: src/main.dep src/mem.dep src/mutil.dep src/random.dep src/archive.dep src/font.dep src/trans.dep src/loadscr.dep src/menu.dep src/stage.dep src/psx/psx.dep src/psx/io.dep src/psx/gfx.dep src/psx/audio.dep src/psx/pad.dep src/psx/timer.dep src/psx/movie.dep src/stage/week4.dep src/stage/swagbg.dep src/stage/sonkbg.dep src/animation.dep src/character.dep src/swap.dep src/character/bf.dep src/character/bfa.dep src/character/speaker.dep src/character/xmasp.dep src/character/sonic.dep src/character/swagt.dep src/character/gf.dep src/object.dep src/object/combo.dep src/object/splash.dep mips/common/crt0/crt0.dep
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/character/swagt.dep: src/character/swagt.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/swagt'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/swagt.dep
+# automatic
+# * := src/character/swagt
+# automatic
+# < := src/character/swagt.c
+# automatic
+# + := src/character/swagt.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/swagt.c
+# automatic
+# ? := src/character/swagt.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/object/combo.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/swagt.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/sonkbg.dep: src/stage/sonkbg.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/sonkbg'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/stage/sonkbg.dep
+# automatic
+# * := src/stage/sonkbg
+# automatic
+# < := src/stage/sonkbg.c
+# automatic
+# + := src/stage/sonkbg.c
+# automatic
+# % := 
+# automatic
+# ^ := src/stage/sonkbg.c
+# automatic
+# ? := src/stage/sonkbg.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/psx/timer.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/archive.dep: src/archive.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/archive'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/archive.dep
+# automatic
+# * := src/archive
+# automatic
+# < := src/archive.c
+# automatic
+# + := src/archive.c
+# automatic
+# % := 
+# automatic
+# ^ := src/archive.c
+# automatic
+# ? := src/archive.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'mips/common.mk', line 91):
+	rm -f $(OBJS) $(BINDIR)Overlay.* $(BINDIR)*.elf $(BINDIR)*.ps-exe $(BINDIR)*.map $(DEPS)
+
+src/character/speaker.dep: src/character/speaker.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/speaker'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/speaker.dep
+# automatic
+# * := src/character/speaker
+# automatic
+# < := src/character/speaker.c
+# automatic
+# + := src/character/speaker.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/speaker.c
+# automatic
+# ? := src/character/speaker.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/random.dep: src/random.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/random'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/random.dep
+# automatic
+# * := src/random
+# automatic
+# < := src/random.c
+# automatic
+# + := src/random.c
+# automatic
+# % := 
+# automatic
+# ^ := src/random.c
+# automatic
+# ? := src/random.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/bf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/loadscr.dep: src/loadscr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/loadscr'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/loadscr.dep
+# automatic
+# * := src/loadscr
+# automatic
+# < := src/loadscr.c
+# automatic
+# + := src/loadscr.c
+# automatic
+# % := 
+# automatic
+# ^ := src/loadscr.c
+# automatic
+# ? := src/loadscr.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/loadscr.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/psx/io.dep: src/psx/io.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/io'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/io.dep
+# automatic
+# * := src/psx/io
+# automatic
+# < := src/psx/io.c
+# automatic
+# + := src/psx/io.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/io.c
+# automatic
+# ? := src/psx/io.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/loadscr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/character/speaker.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/object.dep: src/object.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/object'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/object.dep
+# automatic
+# * := src/object
+# automatic
+# < := src/object.c
+# automatic
+# + := src/object.c
+# automatic
+# % := 
+# automatic
+# ^ := src/object.c
+# automatic
+# ? := src/object.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+mips/common/crt0/crt0.dep: mips/common/crt0/crt0.s
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'mips/common/crt0/crt0'
+#  Last modified 2021-11-14 10:26:49
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 81):
+	touch $@
+
+# Not a target:
+src/character/swagt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/object/combo.dep: src/object/combo.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/object/combo'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/object/combo.dep
+# automatic
+# * := src/object/combo
+# automatic
+# < := src/object/combo.c
+# automatic
+# + := src/object/combo.c
+# automatic
+# % := 
+# automatic
+# ^ := src/object/combo.c
+# automatic
+# ? := src/object/combo.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/gf.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/character/bfa.dep: src/character/bfa.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/bfa'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/bfa.dep
+# automatic
+# * := src/character/bfa
+# automatic
+# < := src/character/bfa.c
+# automatic
+# + := src/character/bfa.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/bfa.c
+# automatic
+# ? := src/character/bfa.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/mutil.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/character/sonic.dep: src/character/sonic.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/sonic'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/sonic.dep
+# automatic
+# * := src/character/sonic
+# automatic
+# < := src/character/sonic.c
+# automatic
+# + := src/character/sonic.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/sonic.c
+# automatic
+# ? := src/character/sonic.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/xmasp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mips/common/crt0/crt0.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/random.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/object/splash.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/character/bfa.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/swap.dep: src/swap.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/swap'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/swap.dep
+# automatic
+# * := src/swap
+# automatic
+# < := src/swap.c
+# automatic
+# + := src/swap.c
+# automatic
+# % := 
+# automatic
+# ^ := src/swap.c
+# automatic
+# ? := src/swap.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+all: dep funkin.ps-exe
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+src/menu.dep: src/menu.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/menu'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/menu.dep
+# automatic
+# * := src/menu
+# automatic
+# < := src/menu.c
+# automatic
+# + := src/menu.c
+# automatic
+# % := 
+# automatic
+# ^ := src/menu.c
+# automatic
+# ? := src/menu.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/trans.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/character/bfa.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/random.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/mutil.dep: src/mutil.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/mutil'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/mutil.dep
+# automatic
+# * := src/mutil
+# automatic
+# < := src/mutil.c
+# automatic
+# + := src/mutil.c
+# automatic
+# % := 
+# automatic
+# ^ := src/mutil.c
+# automatic
+# ? := src/mutil.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/week4.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx/timer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/character.dep: src/character.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character.dep
+# automatic
+# * := src/character
+# automatic
+# < := src/character.c
+# automatic
+# + := src/character.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character.c
+# automatic
+# ? := src/character.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/main.dep: src/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/main'
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/main.dep
+# automatic
+# * := src/main
+# automatic
+# < := src/main.c
+# automatic
+# + := src/main.c
+# automatic
+# % := 
+# automatic
+# ^ := src/main.c
+# automatic
+# ? := src/main.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/character/bf.dep: src/character/bf.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/bf'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/character/bf.dep
+# automatic
+# * := src/character/bf
+# automatic
+# < := src/character/bf.c
+# automatic
+# + := src/character/bf.c
+# automatic
+# % := 
+# automatic
+# ^ := src/character/bf.c
+# automatic
+# ? := src/character/bf.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/sonkbg.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/trans.dep: src/trans.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/trans'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/trans.dep
+# automatic
+# * := src/trans
+# automatic
+# < := src/trans.c
+# automatic
+# + := src/trans.c
+# automatic
+# % := 
+# automatic
+# ^ := src/trans.c
+# automatic
+# ? := src/trans.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/psx/timer.dep: src/psx/timer.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/timer'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/timer.dep
+# automatic
+# * := src/psx/timer
+# automatic
+# < := src/psx/timer.c
+# automatic
+# + := src/psx/timer.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/timer.c
+# automatic
+# ? := src/psx/timer.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/mem.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/mem.dep: src/mem.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/mem'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/mem.dep
+# automatic
+# * := src/mem
+# automatic
+# < := src/mem.c
+# automatic
+# + := src/mem.c
+# automatic
+# % := 
+# automatic
+# ^ := src/mem.c
+# automatic
+# ? := src/mem.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/swap.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/psx/psx.dep: src/psx/psx.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/psx'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/psx.dep
+# automatic
+# * := src/psx/psx
+# automatic
+# < := src/psx/psx.c
+# automatic
+# + := src/psx/psx.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/psx.c
+# automatic
+# ? := src/psx/psx.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/object.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/archive.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mips/common/crt0/crt0.s:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:53
+#  File has been updated.
+#  Successfully updated.
+
+src/psx/movie.dep: src/psx/movie.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx/movie'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/psx/movie.dep
+# automatic
+# * := src/psx/movie
+# automatic
+# < := src/psx/movie.c
+# automatic
+# + := src/psx/movie.c
+# automatic
+# % := 
+# automatic
+# ^ := src/psx/movie.c
+# automatic
+# ? := src/psx/movie.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/psx/gfx.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx/psx.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/animation.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx/psx.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/character/speaker.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+src/object/splash.dep: src/object/splash.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/object/splash'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/object/splash.dep
+# automatic
+# * := src/object/splash
+# automatic
+# < := src/object/splash.c
+# automatic
+# + := src/object/splash.c
+# automatic
+# % := 
+# automatic
+# ^ := src/object/splash.c
+# automatic
+# ? := src/object/splash.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/psx/audio.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/combo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/font.dep: src/font.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/font'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := src/font.dep
+# automatic
+# * := src/font
+# automatic
+# < := src/font.c
+# automatic
+# + := src/font.c
+# automatic
+# % := 
+# automatic
+# ^ := src/font.c
+# automatic
+# ? := src/font.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/22=9%
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/character.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean dep all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/psx/movie.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/mutil.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx/movie.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/bf.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-14 10:24:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/sonic.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/object.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+funkin.elf: src/main.o src/mem.o src/mutil.o src/random.o src/archive.o src/font.o src/trans.o src/loadscr.o src/menu.o src/stage.o src/psx/psx.o src/psx/io.o src/psx/gfx.o src/psx/audio.o src/psx/pad.o src/psx/timer.o src/psx/movie.o src/stage/week4.o src/stage/swagbg.o src/stage/sonkbg.o src/animation.o src/character.o src/swap.o src/character/bf.o src/character/bfa.o src/character/speaker.o src/character/xmasp.o src/character/sonic.o src/character/swagt.o src/character/gf.o src/object.o src/object/combo.o src/object/splash.o mips/common/crt0/crt0.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'mips/common.mk', line 65):
+	$(CC) -g -o $(BINDIR)$(TARGET).elf $(OBJS) $(LDFLAGS)
+
+# files hash-table stats:
+# Load=112/1024=11%, Rehash=0, Collisions=53/341=16%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 258 / storage = 3256 B / avg = 12 B
+# current buf: size = 8162 B / used = 3256 B / count = 258 / avg = 12 B
+
+# strcache performance: lookups = 398 / hit rate = 35%
+# hash-table stats:
+# Load=258/8192=3%, Rehash=0, Collisions=5/398=1%
+# Finished Make data base on Sun Nov 14 10:27:08 2021
+
+ 

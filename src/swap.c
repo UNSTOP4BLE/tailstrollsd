@@ -120,6 +120,25 @@ void Swap_PerformIdle(Swap *this)
 	}
 }
 
+void Swap_PerformIdleAlt2(Swap *this)
+{
+	Swap_CheckEndSing(this);
+	if (stage.flag & STAGE_FLAG_JUST_STEP)
+	{
+		if (Animatable_Ended(&this->animatable) &&
+		    (this->animatable.anim != SwapAnim_Left &&
+		     this->animatable.anim != SwapAnim_LeftAlt &&
+		     this->animatable.anim != SwapAnim_Down &&
+		     this->animatable.anim != SwapAnim_DownAlt &&
+		     this->animatable.anim != SwapAnim_Up &&
+		     this->animatable.anim != SwapAnim_UpAlt &&
+		     this->animatable.anim != SwapAnim_Right &&
+		     this->animatable.anim != SwapAnim_RightAlt) &&
+		    (stage.song_step & 0x7) == 0)
+			this->set_anim(this, SwapAnim_Idleb);
+	}
+}
+
 void Swap_PerformIdleAlt(Swap *this)
 {
 	Swap_CheckEndSing2(this);

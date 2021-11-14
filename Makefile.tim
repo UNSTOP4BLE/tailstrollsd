@@ -51,6 +51,6 @@ iso/gf/main.arc: iso/gf/bopleft.tim iso/gf/bopright.tim iso/gf/cry.tim
 # Week 4
 iso/week4/back.arc: iso/week4/back2.tim 
 
-iso/sonkbg/back.arc: iso/sonkbg/back2.tim 
+iso/swagbg/back.arc: iso/swagbg/back2.tim 
 
 

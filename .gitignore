@@ -5,6 +5,9 @@ memcard1.mcd
 memcard2.mcd
 license*.dat
 mips/psyq/
+mkpsxiso.xml
+libgcc_s_dw2-1.dll
+libstdc++-6.dll
 
 # Exclude executable files
 *.cue

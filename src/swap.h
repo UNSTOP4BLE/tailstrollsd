@@ -29,8 +29,8 @@ typedef enum
 	SwapAnim_Down2,  SwapAnim_DownAlt2,
 	SwapAnim_Up2,    SwapAnim_UpAlt2,
 	SwapAnim_Right2, SwapAnim_RightAlt2,
-	SwapAnim_Idlealt,  SwapAnim_Idleb,
-SwapAnim_Idlec,
+	SwapAnim_Idlealt,  
+	SwapAnim_Idleb,
 	
 	SwapAnim_Max //Max standard/shared animation
 } SwapAnim;
@@ -75,5 +75,6 @@ void Swap_CheckEndSing(Swap *this);
 void Swap_CheckEndSing2(Swap *this);
 void Swap_PerformIdle(Swap *this);
 void Swap_PerformIdleAlt(Swap *this);
+void Swap_PerformIdleAlt2(Swap *this);
 
 #endif

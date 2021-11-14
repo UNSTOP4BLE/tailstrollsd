@@ -25,7 +25,7 @@ typedef enum
 	CharAnim_Left,  CharAnim_LeftAlt,
 	CharAnim_Down,  CharAnim_DownAlt,
 	CharAnim_Up,    CharAnim_UpAlt,
-	CharAnim_Right,   CharAnim_RightAlt,
+	CharAnim_Right, CharAnim_RightAlt,
 	CharAnim_Idlealt,
 	CharAnim_Idleb,
 	

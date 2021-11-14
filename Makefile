@@ -22,8 +22,8 @@ SRCS = src/main.c \
        src/stage/swagbg.c \
        src/stage/sonkbg.c \
        src/animation.c \
-       src/character.c \
        src/swap.c \
+       src/character.c \
        src/character/bf.c \
        src/character/bfa.c \
        src/character/speaker.c \
