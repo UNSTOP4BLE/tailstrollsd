@@ -267,11 +267,6 @@ static void Stage_MissNote(PlayerState *this)
 {
 	if (this->combo)
 	{
-		//Kill combo
-		if (this->combo > 5)
-			stage.gf->set_anim(stage.gf, CharAnim_Down); //Cry if we lost a large combo
-		this->combo = 0;
-		
 		//Create combo object telling of our lost combo
 		Obj_Combo *combo = Obj_Combo_New(
 			this->character->focus_x,

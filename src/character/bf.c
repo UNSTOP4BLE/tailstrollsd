@@ -87,23 +87,23 @@ static const CharFrame char_bf_frame[] = {
 	
 	{BF_ArcMain_Hit0,  {  0,   0, 128, 128}, { 98,  97}}, //4 left 1
 	{BF_ArcMain_Hit0,  {128,   0, 128, 128}, { 99,  97}}, //5 left 2
-	{BF_ArcMain_Miss0, {  0,   0, 128, 128}, { 89, 100}}, //6 left miss 1
-	{BF_ArcMain_Miss0, {128,   0, 128, 128}, { 88, 107}}, //7 left miss 2
+	{BF_ArcMain_Miss0, {  0,   0, 128, 128}, { 99, 110}}, //6 left miss 1
+	{BF_ArcMain_Miss0, {128,   0, 128, 128}, { 98, 110}}, //7 left miss 2
 	
 	{BF_ArcMain_Hit0,  {  0, 128, 128, 128}, { 99,  90}}, //8 down 1
 	{BF_ArcMain_Hit0,  {128, 128, 128, 128}, { 101,  91}}, //9 down 2
-	{BF_ArcMain_Miss0, {  0, 128, 128, 128}, { 91,  98}}, //10 down miss 1
-	{BF_ArcMain_Miss0, {128, 128, 128, 128}, { 92,  97}}, //11 down miss 2
+	{BF_ArcMain_Miss0, {  0, 128, 128, 128}, { 91,  93}}, //10 down miss 1
+	{BF_ArcMain_Miss0, {128, 128, 128, 128}, { 92,  92}}, //11 down miss 2
 	
 	{BF_ArcMain_Hit1,  {  0,   0, 128, 128}, { 78, 108}}, //12 up 1
 	{BF_ArcMain_Hit1,  {128,   0, 128, 128}, { 88, 109}}, //13 up 2
-	{BF_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 112}}, //14 up miss 1
-	{BF_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 113}}, //15 up miss 2
+	{BF_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 122}}, //14 up miss 1
+	{BF_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 123}}, //15 up miss 2
 	
 	{BF_ArcMain_Hit1,  {  0, 128, 128, 128}, { 88,  99}}, //16 right 1
 	{BF_ArcMain_Hit1,  {128, 128, 128, 128}, { 88,  99}}, //17 right 2
-	{BF_ArcMain_Miss1, {  0, 128, 128, 128}, { 80, 108}}, //18 right miss 1
-	{BF_ArcMain_Miss1, {128, 128, 128, 128}, { 80, 108}}, //19 right miss 2
+	{BF_ArcMain_Miss1, {  0, 128, 128, 128}, { 88, 108}}, //18 right miss 1
+	{BF_ArcMain_Miss1, {128, 128, 128, 128}, { 88, 108}}, //19 right miss 2
 	
 	{BF_ArcMain_Peace, {  0,   0, 128, 128}, { 53,  98}}, //20 peace 1
 	{BF_ArcMain_Peace, {128,   0, 128, 128}, { 53,  97}}, //21 peace 2

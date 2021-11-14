@@ -90,20 +90,20 @@ static const CharFrame char_bfa_frame[] = {
 	{bfa_ArcMain_Miss0, {  0,   0, 128, 128}, { 98,  102}}, //6 left miss 1
 	{bfa_ArcMain_Miss0, {128,   0, 128, 128}, { 99,  102}}, //7 left miss 2
 	
-	{bfa_ArcMain_Hit0,  {  0, 128, 128, 128}, { 96,  92}}, //8 down 1
-	{bfa_ArcMain_Hit0,  {128, 128, 128, 128}, { 98,  93}}, //9 down 2
+	{bfa_ArcMain_Hit0,  {  0, 128, 128, 128}, { 96,  85}}, //8 down 1
+	{bfa_ArcMain_Hit0,  {128, 128, 128, 128}, { 98,  86}}, //9 down 2
 	{bfa_ArcMain_Miss0, {  0, 128, 128, 128}, { 96,  92}}, //10 down miss 1
 	{bfa_ArcMain_Miss0, {128, 128, 128, 128}, { 98,  93}}, //11 down miss 2
 	
-	{bfa_ArcMain_Hit1,  {  0,   0, 128, 128}, { 88, 110}}, //12 up 1
-	{bfa_ArcMain_Hit1,  {128,   0, 128, 128}, { 88, 111}}, //13 up 2
+	{bfa_ArcMain_Hit1,  {  0,   0, 128, 128}, { 88, 108}}, //12 up 1
+	{bfa_ArcMain_Hit1,  {128,   0, 128, 128}, { 88, 109}}, //13 up 2
 	{bfa_ArcMain_Miss1, {  0,   0, 128, 128}, { 88, 110}}, //14 up miss 1
 	{bfa_ArcMain_Miss1, {128,   0, 128, 128}, { 85, 111}}, //15 up miss 2
 	
 	{bfa_ArcMain_Hit1,  {  0, 128, 128, 128}, { 85,  97}}, //16 right 1
 	{bfa_ArcMain_Hit1,  {128, 128, 128, 128}, { 85,  97}}, //17 right 2
-	{bfa_ArcMain_Miss1, {  0, 128, 128, 128}, { 85, 97}}, //18 right miss 1
-	{bfa_ArcMain_Miss1, {128, 128, 128, 128}, { 85, 97}}, //19 right miss 2
+	{bfa_ArcMain_Miss1, {  0, 128, 128, 128}, { 85, 100}}, //18 right miss 1
+	{bfa_ArcMain_Miss1, {128, 128, 128, 128}, { 85, 100}}, //19 right miss 2
 	
 	{bfa_ArcMain_Peace, {  0,   0, 128, 128}, { 53,  98}}, //20 peace 1
 	{bfa_ArcMain_Peace, {128,   0, 128, 128}, { 53,  97}}, //21 peace 2

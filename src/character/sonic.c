@@ -44,15 +44,17 @@ enum
 	sonic_ArcMain_RightC0,
 	sonic_ArcMain_RightC1,
 	
+	sonic_ArcMain_Idleb0,
+	sonic_ArcMain_Idleb1,
+	sonic_ArcMain_Idleb2,
+	sonic_ArcMain_Idleb3,
+
 	sonic_ArcMain_Idlealt0,
 	sonic_ArcMain_Idlealt1,
 	sonic_ArcMain_Idlealt2,
 	sonic_ArcMain_Idlealt3,
 
-	sonic_ArcMain_Idleb0,
-	sonic_ArcMain_Idleb1,
-	sonic_ArcMain_Idleb2,
-	sonic_ArcMain_Idleb3,
+
 
 	
 	sonic_Arc_Max,
@@ -110,16 +112,15 @@ static const SwapFrame swap_sonic_frame[] = {
 	{sonic_ArcMain_RightC0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_RightC1, {0,   0, 110, 142}, {130, 182}},
 
-	{sonic_ArcMain_Idlealt0, {0,   0, 110, 142}, {130, 182}},
-	{sonic_ArcMain_Idlealt1, {0,   0, 110, 142}, {130, 182}},
-	{sonic_ArcMain_Idlealt2, {0,   0, 110, 142}, {130, 182}},
-	{sonic_ArcMain_Idlealt3, {0,   0, 110, 142}, {130, 182}},
-
 	{sonic_ArcMain_Idleb0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idleb1, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idleb2, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idleb3, {0,   0, 110, 142}, {130, 182}},
 
+	{sonic_ArcMain_Idlealt0, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idlealt1, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idlealt2, {0,   0, 110, 142}, {130, 182}},
+	{sonic_ArcMain_Idlealt3, {0,   0, 110, 142}, {130, 182}},
 };
 
 static const Animation swap_sonic_anim[SwapAnim_Max] = {
@@ -140,8 +141,8 @@ static const Animation swap_sonic_anim[SwapAnim_Max] = {
     {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
 	{2, (const u8[]){ 26,  27, ASCR_BACK, 1 }},	//CharAnimCharAnim_RightAltc
     {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 28,  29,  30,  31, ASCR_BACK, 1 }}, //CharAnim_altIdle
-	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  SwapAnim_Idleb}}, //CharAnim_altIdle2
+	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  SwapAnim_Idle}}, //CharAnim_altIdle2
+	{2, (const u8[]){ 28,  29,  30,  31, ASCR_CHGANI,  SwapAnim_Idleb }}, //CharAnim_altIdle
 };
 
 //Christmas Parents functions
@@ -163,6 +164,21 @@ void Swap_sonic_Tick(Swap *swap)
 {
 	Swap_sonic *this = (Swap_sonic*)swap;
 	
+	//zoomi
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1664)
+	{
+		this->swap.focus_x = FIXED_DEC(-10,1);
+		this->swap.focus_y = FIXED_DEC(-100,1);
+		this->swap.focus_zoom = FIXED_DEC(15,10);
+	}
+
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1920)
+	{
+		this->swap.focus_x = FIXED_DEC(-10,1);
+		this->swap.focus_y = FIXED_DEC(-140,1);
+		this->swap.focus_zoom = FIXED_DEC(1,1);
+	}
+
 	//Perform idle dance
 	if ((swap->pad_held & (INPUT_LEFT | INPUT_DOWN | INPUT_UP | INPUT_RIGHT)) == 0)
 	  {
@@ -225,8 +241,8 @@ Swap *Swap_sonic_New(fixed_t x, fixed_t y)
 	
 	this->swap.health_i = 5;
 	
-	this->swap.focus_x = FIXED_DEC(25,1);
-	this->swap.focus_y = FIXED_DEC(-50,1);
+	this->swap.focus_x = FIXED_DEC(-10,1);
+	this->swap.focus_y = FIXED_DEC(-140,1);
 	this->swap.focus_zoom = FIXED_DEC(1,1);
 	
 	//Load art
