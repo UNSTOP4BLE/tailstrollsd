@@ -16,6 +16,7 @@ libstdc++-6.dll
 *.map
 *.ps-exe
 *.exe
+*.vscode
 tools/funkinarcpak/funkinarcpak
 tools/funkinchartpak/funkinchartpak
 tools/funkinpicopak/funkinpicopak
