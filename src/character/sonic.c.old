@@ -54,14 +54,13 @@ enum
 	sonic_ArcMain_Idleb2,
 	sonic_ArcMain_Idleb3,
 
-	
 	sonic_Arc_Max,
 };
 
 typedef struct
 {
-	//Swap base structure
-	Swap swap;
+	//Character base structure
+	Character character;
 	
 	//Render data and state
 	IO_Data arc_main;
@@ -69,10 +68,10 @@ typedef struct
 	
 	Gfx_Tex tex;
 	u8 frame, tex_id;
-} Swap_sonic;
+} Char_sonic;
 
 //Christmas Parents definitions
-static const SwapFrame swap_sonic_frame[] = {
+static const CharFrame char_sonic_frame[] = {
 	{sonic_ArcMain_Idle0, {0,   0, 110, 142}, {130, 182}}, //0 idle 1
 	{sonic_ArcMain_Idle1, {0,   0, 110, 142}, {130, 182}}, //1 idle 2
 	{sonic_ArcMain_Idle2, {0,   0, 110, 142}, {130, 182}}, //2 idle 3
@@ -100,21 +99,16 @@ static const SwapFrame swap_sonic_frame[] = {
 
 	{sonic_ArcMain_LeftC0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_LeftC1, {0,   0, 110, 142}, {130, 182}},
-
 	{sonic_ArcMain_DownC0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_DownC1, {0,   0, 110, 142}, {130, 182}},
-
 	{sonic_ArcMain_UpC0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_UpC1, {0,   0, 110, 142}, {130, 182}},
-
 	{sonic_ArcMain_RightC0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_RightC1, {0,   0, 110, 142}, {130, 182}},
-
 	{sonic_ArcMain_Idlealt0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idlealt1, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idlealt2, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idlealt3, {0,   0, 110, 142}, {130, 182}},
-
 	{sonic_ArcMain_Idleb0, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idleb1, {0,   0, 110, 142}, {130, 182}},
 	{sonic_ArcMain_Idleb2, {0,   0, 110, 142}, {130, 182}},
@@ -122,113 +116,148 @@ static const SwapFrame swap_sonic_frame[] = {
 
 };
 
-static const Animation swap_sonic_anim[CharAnim_Max] = {
+static const Animation char_sonic_anim[CharAnim_Max] = {
 	{2, (const u8[]){ 0,  1,  2,  3, ASCR_BACK, 1}}, //CharAnim_Idle
-	{2, (const u8[]){ 4,  5, ASCR_BACK, 1}},         //CharAnim_Left
-	{2, (const u8[]){ 6,  7, ASCR_CHGANI,  SwapAnim_Idlec}},         //CharAnim_LeftAlt
-	{2, (const u8[]){ 8,  9, ASCR_BACK, 1}},         //CharAnim_Down
-	{2, (const u8[]){10, 11, ASCR_CHGANI,  SwapAnim_Idlec}},         //CharAnim_DownAlt
-	{2, (const u8[]){12, 13, ASCR_BACK, 1}},         //CharAnim_Up
-	{2, (const u8[]){14, 15, ASCR_CHGANI,  SwapAnim_Idlec}},         //CharAnim_UpAlt
-	{2, (const u8[]){16, 17, ASCR_BACK, 1}},         //CharAnim_Right
-	{2, (const u8[]){18, 19, ASCR_CHGANI,  SwapAnim_Idlec}},         //CharAnim_RightAlt
-	{2, (const u8[]){ 20,  21, ASCR_BACK,1 }},	//CharAnim_LeftAltc
-     {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 22,  23, ASCR_BACK,1 }},	//CharAnim_DownAltc
-     {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 24,  25, ASCR_BACK, 1 }},	//CharAnim_UpAltc
-     {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 26,  27, ASCR_BACK, 1 }},	//CharAnimCharAnim_RightAltc
-     {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 28,  29,  30,  31, ASCR_BACK, 1 }}, //CharAnim_altIdle
-	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  SwapAnim_Idleb}}, //CharAnim_altIdle2
-   {2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  SwapAnim_Idlec}}, //CharAnim_altIdle2
+	{2, (const u8[]){ 4,  5, ASCR_CHGANI, 1}},         //CharAnim_Left
+	{2, (const u8[]){ 6,  7, ASCR_CHGANI, CharAnim_Idlealt}},         //CharAnim_LeftAlt
+	{2, (const u8[]){ 8,  9, ASCR_CHGANI, 1}},         //CharAnim_Down
+	{2, (const u8[]){10, 11, ASCR_CHGANI, CharAnim_Idlealt}},         //CharAnim_DownAlt
+	{2, (const u8[]){12, 13, ASCR_CHGANI, 1}},         //CharAnim_Up
+	{2, (const u8[]){14, 15, ASCR_CHGANI, CharAnim_Idlealt}},         //CharAnim_UpAlt
+	{2, (const u8[]){16, 17, ASCR_CHGANI, 1}},         //CharAnim_Right
+	{2, (const u8[]){18, 19, ASCR_CHGANI, CharAnim_Idlealt}},         //CharAnim_RightAlt
+	{2, (const u8[]){ 20,  21, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnim_LeftAltc
+	{2, (const u8[]){ 22,  23, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnim_DownAltc
+	{2, (const u8[]){ 24,  25, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnim_UpAltc
+	{2, (const u8[]){ 26,  27, ASCR_CHGANI, CharAnim_Idleb}},	//CharAnimCharAnim_RightAltc
+	{2, (const u8[]){ 28,  29,  30,  31, ASCR_CHGANI,  CharAnim_Idlealt}}, //CharAnim_altIdle
+	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  CharAnim_Idleb}}, //CharAnim_altIdle2
 };
 
 //Christmas Parents functions
-void Swap_sonic_SetFrame(void *user, u8 frame)
+void Char_sonic_SetFrame(void *user, u8 frame)
 {
-	Swap_sonic *this = (Swap_sonic*)user;
+	Char_sonic *this = (Char_sonic*)user;
 	
 	//Check if this is a new frame
 	if (frame != this->frame)
 	{
 		//Check if new art shall be loaded
-		const SwapFrame *cframe = &swap_sonic_frame[this->frame = frame];
+		const CharFrame *cframe = &char_sonic_frame[this->frame = frame];
 		if (cframe->tex != this->tex_id)
 			Gfx_LoadTex(&this->tex, this->arc_ptr[this->tex_id = cframe->tex], 0);
 	}
 }
 
-void Swap_sonic_Tick(Swap *swap)
+void Char_sonic_Tick(Character *character)
 {
-	Swap_sonic *this = (Swap_sonic*)swap;
-	
+	Char_sonic *this = (Char_sonic*)character;
+	//zoomi
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1664)
+	{
+		this->character.focus_x = FIXED_DEC(-10,1);
+		this->character.focus_y = FIXED_DEC(-100,1);
+		this->character.focus_zoom = FIXED_DEC(15,10);
+	}
+
+	if ((stage.stage_id == StageId_1_3) && stage.song_step >= 1920)
+	{
+		this->character.focus_x = FIXED_DEC(-10,1);
+		this->character.focus_y = FIXED_DEC(-140,1);
+		this->character.focus_zoom = FIXED_DEC(1,1);
+	}
+
 	//Perform idle dance
-	if ((swap->pad_held & (INPUT_LEFT | INPUT_DOWN | INPUT_UP | INPUT_RIGHT)) == 0)
-	  {
-	   if(stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664)
-		Swap_PerformIdleAlt(swap);
-
-		else
-		Swap_PerformIdle(swap);
-	  }
+	if ((character->pad_held & (INPUT_LEFT | INPUT_DOWN | INPUT_UP | INPUT_RIGHT)) == 0)
+		Character_PerformIdle(character);
 	
+		//Stage specific animations
+
+
+if (stage.note_scroll >= 0)
+    {
+        switch (stage.stage_id)
+        {
+        case StageId_1_3: //sconc alt idlethingy
+
+		                if ((stage.song_step) == 0)
+                        character->set_anim(character, CharAnim_RightC);
+				//rapper sonic 1st switch
+                if ((stage.song_step) == 845)
+                        character->set_anim(character, CharAnim_Idlealt);
+				break;
+                if ((stage.song_step) == 883)
+                        character->set_anim(character, CharAnim_Idle);
+				break;
+                //rapper sonic 2nd switch
+                if ((stage.song_step) == 1152)
+                        character->set_anim(character, CharAnim_Idlealt);
+				break;
+				//forced sonic 1st and last switch ((not done))
+                if ((stage.song_step) == 1408)
+                        character->set_anim(character, CharAnim_Idleb);
+				break;
+				//(instert forced sonic swap code here)
+
+
+				//rapper sonic 3rd and last switch
+                if ((stage.song_step) == 1664)
+                        character->set_anim(character, CharAnim_Idlealt);
+            break;
+			default:
+            break;
+        }
+    }
+
 	//Animate and draw
-	Animatable_Animate(&swap->animatable, (void*)this, Swap_sonic_SetFrame);
-	Swap_Draw(swap, &this->tex, &swap_sonic_frame[this->frame]);
+	Animatable_Animate(&character->animatable, (void*)this, Char_sonic_SetFrame);
+	Character_Draw(character, &this->tex, &char_sonic_frame[this->frame]);
 }
 
-void Swap_sonic_SetAnim(Swap *swap, u8 anim)
+void Char_sonic_SetAnim(Character *character, u8 anim)
 {
-
 	//Set animation
-	Animatable_SetAnim(&swap->animatable, anim);
-	
-    if(stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664)
-	Swap_CheckStartSing2(swap);
-
-	else
-	Swap_CheckStartSing(swap);
-
+	Animatable_SetAnim(&character->animatable, anim);
+	Character_CheckStartSing(character);
 }
 
-void Swap_sonic_Free(Swap *Swap)
+void Char_sonic_Free(Character *character)
 {
-	Swap_sonic *this = (Swap_sonic*)Swap;
+	Char_sonic *this = (Char_sonic*)character;
 	
 	//Free art
 	Mem_Free(this->arc_main);
 }
 
-Swap *Swap_sonic_New(fixed_t x, fixed_t y)
+Character *Char_sonic_New(fixed_t x, fixed_t y)
 {
 	//Allocate Christmas Parents object
-	Swap_sonic *this = Mem_Alloc(sizeof(Swap_sonic));
+	Char_sonic *this = Mem_Alloc(sizeof(Char_sonic));
 	if (this == NULL)
 	{
-		sprintf(error_msg, "[Swap_sonic_New] Failed to allocate Christmas Parents object");
+		sprintf(error_msg, "[Char_sonic_New] Failed to allocate Christmas Parents object");
 		ErrorLock();
 		return NULL;
 	}
 	
-	//Initialize Swap
-	this->swap.tick = Swap_sonic_Tick;
-	this->swap.set_anim = Swap_sonic_SetAnim;
-	this->swap.free = Swap_sonic_Free;
+	//Initialize character
+	this->character.tick = Char_sonic_Tick;
+	this->character.set_anim = Char_sonic_SetAnim;
+	this->character.free = Char_sonic_Free;
 	
-	Animatable_Init(&this->swap.animatable, swap_sonic_anim);
-	Swap_Init((Swap*)this, x, y);
+	Animatable_Init(&this->character.animatable, char_sonic_anim);
+	Character_Init((Character*)this, x, y);
 	
-	//Set Swap information
+	//Set character information
+	this->character.spec = 0;
+	
+	this->character.health_i = 5;
+	
+	this->character.focus_x = FIXED_DEC(-10,1);
+	this->character.focus_y = FIXED_DEC(-140,1);
+	this->character.focus_zoom = FIXED_DEC(1,1);
 
-    this->swap.spec = CHAR_SPEC_MISSANIM2;
 	
-	this->swap.health_i = 5;
-	
-	this->swap.focus_x = FIXED_DEC(25,1);
-	this->swap.focus_y = FIXED_DEC(-50,1);
-	this->swap.focus_zoom = FIXED_DEC(1,1);
 	
 	//Load art
 	this->arc_main = IO_Read("\\CHAR\\SONIC.ARC;1");
@@ -280,5 +309,5 @@ Swap *Swap_sonic_New(fixed_t x, fixed_t y)
 	//Initialize render state
 	this->tex_id = this->frame = 0xFF;
 	
-	return (Swap*)this;
+	return (Character*)this;
 }

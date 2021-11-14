@@ -7,9 +7,9 @@
 #ifndef _SONIC_H
 #define _SONIC_H
 
-#include "../character.h"
+#include "../swap.h"
 
-//Christmas Parents character functions
-Character *Char_sonic_New(fixed_t x, fixed_t y);
+//Christmas Parents Swap functions
+Swap *Swap_sonic_New(fixed_t x, fixed_t y);
 
 #endif

@@ -16,6 +16,7 @@
 //Character specs
 typedef u8 CharSpec;
 #define CHAR_SPEC_MISSANIM (1 << 0) //Has miss animations
+#define CHAR_SPEC_MISSANIM2 (2 << 0) //Has miss animations
 
 //Character enums
 typedef enum
@@ -25,10 +26,6 @@ typedef enum
 	CharAnim_Down,  CharAnim_DownAlt,
 	CharAnim_Up,    CharAnim_UpAlt,
 	CharAnim_Right,   CharAnim_RightAlt,
-	CharAnim_LeftC,
-	CharAnim_DownC,
-	CharAnim_UpC,
-	CharAnim_RightC,
 	CharAnim_Idlealt,
 	CharAnim_Idleb,
 	
