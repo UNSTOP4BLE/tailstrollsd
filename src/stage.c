@@ -23,7 +23,7 @@
 #include "object/splash.h"
 
 //Stage constants
-#define STAGE_PERFECT //Play all notes perfectly
+//#define STAGE_PERFECT //Play all notes perfectly
 //#define STAGE_NOHUD //Disable the HUD
 //#define STAGE_FREECAM //Freecam
 
@@ -267,6 +267,11 @@ static void Stage_MissNote(PlayerState *this)
 {
 	if (this->combo)
 	{
+
+		//Kill combo
+		if (this->combo > 5)
+		this->combo = 0;
+
 		//Create combo object telling of our lost combo
 		Obj_Combo *combo = Obj_Combo_New(
 			this->character->focus_x,
@@ -298,7 +303,7 @@ static void Stage_NoteCheck(PlayerState *this, u8 type)
 			//Hit the note
 			note->type |= NOTE_FLAG_HIT;
 
-			if ((this->character->spec & CHAR_SPEC_MISSANIM2 && stage.stage_id == StageId_5_2 && stage.song_step >= 900))
+			if ((this->character->spec & CHAR_SPEC_MISSANIM2 && stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664))
 		{
 			this->character->set_anim(this->character, note_anims[type & 0x3][2]);
 			u8 hit_type = Stage_HitNote(this, type, stage.note_scroll - note_fp);
@@ -400,7 +405,7 @@ static void Stage_NoteCheck(PlayerState *this, u8 type)
 		if (this->character->spec & CHAR_SPEC_MISSANIM)
 			this->character->set_anim(this->character, note_anims[type & 0x3][1]);
 
-		else if ((this->character->spec & CHAR_SPEC_MISSANIM2 && stage.stage_id == StageId_5_2 && stage.song_step >= 900))
+		else if ((this->character->spec & CHAR_SPEC_MISSANIM2 && stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664))
                 this->character->set_anim(this->character, note_anims[type & 0x3][2]);
 
 			else	
@@ -447,7 +452,7 @@ static void Stage_SustainCheck(PlayerState *this, u8 type)
 		//Hit the note
 		note->type |= NOTE_FLAG_HIT;
 		
-	if ((this->character->spec & CHAR_SPEC_MISSANIM2  && stage.stage_id == StageId_5_2 && stage.song_step >= 900) || (stage.mode == StageMode_2P  && stage.stage_id == StageId_5_2 && stage.song_step >= 900))
+	if ((this->character->spec & CHAR_SPEC_MISSANIM2  && stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664))
 		this->character->set_anim(this->character, note_anims[type & 0x3][2]);
 
 	else this->character->set_anim(this->character, note_anims[type & 0x3][(note->type & NOTE_FLAG_ALT_ANIM) != 0]);
@@ -1648,11 +1653,11 @@ void Stage_Tick(void)
 
 				
 							if (stage.mode != StageMode_Swap && stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664 &&  note->type & NOTE_FLAG_SUSTAIN)
-								opponent_snote = note_anims[note->type & 0x3][1];
+								opponent_snote = note_anims[note->type & 0x3][2];
 
 							else if (stage.mode != StageMode_Swap && stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664)
 							{
-								opponent_anote = note_anims[note->type & 0x3][1];
+								opponent_anote = note_anims[note->type & 0x3][2];
 							    note->type |= NOTE_FLAG_HIT;
 							}
 
@@ -1796,29 +1801,6 @@ void Stage_Tick(void)
 				Stage_DrawTex(&stage.tex_hud1, &health_back, &health_dst, stage.bump);
 			}
 			
-			//Hardcoded stage stuff
-			switch (stage.stage_id)
-			{
-				case StageId_1_2: //Fresh GF bop
-					switch (stage.song_step)
-					{
-						case 16 << 2:
-							stage.gf_speed = 2 << 2;
-							break;
-						case 48 << 2:
-							stage.gf_speed = 1 << 2;
-							break;
-						case 80 << 2:
-							stage.gf_speed = 2 << 2;
-							break;
-						case 112 << 2:
-							stage.gf_speed = 1 << 2;
-							break;
-					}
-					break;
-				default:
-					break;
-			}
 			
 			//Draw stage foreground
 			if (stage.back->draw_fg != NULL)

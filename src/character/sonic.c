@@ -126,23 +126,23 @@ static const SwapFrame swap_sonic_frame[] = {
 static const Animation swap_sonic_anim[SwapAnim_Max] = {
 	{2, (const u8[]){ 0,  1,  2,  3, ASCR_BACK, 1}}, //CharAnim_Idle
 	{2, (const u8[]){ 4,  5, ASCR_BACK, 1}},         //CharAnim_Left
-	{2, (const u8[]){ 6,  7, ASCR_CHGANI,  SwapAnim_Idleb}},         //CharAnim_LeftAlt
+	{2, (const u8[]){ 6,  7, ASCR_CHGANI,  SwapAnim_Idlealt}},         //CharAnim_LeftAlt
 	{2, (const u8[]){ 8,  9, ASCR_BACK, 1}},         //CharAnim_Down
-	{2, (const u8[]){10, 11, ASCR_CHGANI,  SwapAnim_Idleb}},         //CharAnim_DownAlt
+	{2, (const u8[]){10, 11, ASCR_CHGANI,  SwapAnim_Idlealt}},         //CharAnim_DownAlt
 	{2, (const u8[]){12, 13, ASCR_BACK, 1}},         //CharAnim_Up
-	{2, (const u8[]){14, 15, ASCR_CHGANI,  SwapAnim_Idleb}},         //CharAnim_UpAlt
+	{2, (const u8[]){14, 15, ASCR_CHGANI,  SwapAnim_Idlealt}},         //CharAnim_UpAlt
 	{2, (const u8[]){16, 17, ASCR_BACK, 1}},         //CharAnim_Right
-	{2, (const u8[]){18, 19, ASCR_CHGANI,  SwapAnim_Idleb}},         //CharAnim_RightAlt
+	{2, (const u8[]){18, 19, ASCR_CHGANI,  SwapAnim_Idlealt}},         //CharAnim_RightAlt
 	{2, (const u8[]){ 20,  21, ASCR_BACK,1 }},	//CharAnim_LeftAltc
-    {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
+    {2, (const u8[]){ 20,  21, ASCR_BACK,1}},	//CharAnim_LeftAltc
 	{2, (const u8[]){ 22,  23, ASCR_BACK,1 }},	//CharAnim_DownAltc
-    {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
+    {2, (const u8[]){ 20,  21, ASCR_BACK,1}},	//CharAnim_LeftAltc
 	{2, (const u8[]){ 24,  25, ASCR_BACK, 1 }},	//CharAnim_UpAltc
-    {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
+    {2, (const u8[]){ 20,  21, ASCR_BACK,1}},	//CharAnim_LeftAltc
 	{2, (const u8[]){ 26,  27, ASCR_BACK, 1 }},	//CharAnimCharAnim_RightAltc
-    {2, (const u8[]){ 20,  21, ASCR_BACK}},	//CharAnim_LeftAltc
-	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  SwapAnim_Idle}}, //CharAnim_altIdle2
-	{2, (const u8[]){ 28,  29,  30,  31, ASCR_CHGANI,  SwapAnim_Idleb }}, //CharAnim_altIdle
+    {2, (const u8[]){ 20,  21, ASCR_BACK,1}},	//CharAnim_LeftAltc
+	{2, (const u8[]){ 32,  33,  34,  35, ASCR_CHGANI,  SwapAnim_Idlealt}}, //CharAnim_altIdle2
+	{2, (const u8[]){ 28,  29,  30,  31, ASCR_BACK,1 }}, //CharAnim_altIdle
 };
 
 //Christmas Parents functions
@@ -183,6 +183,9 @@ void Swap_sonic_Tick(Swap *swap)
 	if ((swap->pad_held & (INPUT_LEFT | INPUT_DOWN | INPUT_UP | INPUT_RIGHT)) == 0)
 	  {
 	   if(stage.stage_id == StageId_1_3 && stage.song_step >= 1408 && stage.song_step <= 1664)
+		Swap_PerformIdleAlt2(swap);
+
+		else if (stage.stage_id == StageId_1_3 && stage.song_step >= 1664)
 		Swap_PerformIdleAlt(swap);
 
 		else
@@ -277,14 +280,15 @@ Swap *Swap_sonic_New(fixed_t x, fixed_t y)
 		"upc1.tim",    //sonic_ArcMain_UpA1
 		"rightc0.tim", //sonic_ArcMain_Rightc0
 		"rightc1.tim", //sonic_ArcMain_Rightc1
-		"idlealt0.tim",   //sonic_ArcMain_Idle0
-		"idlealt1.tim",   //sonic_ArcMain_Idle1
-		"idlealt2.tim",   //sonic_ArcMain_Idle2
-		"idlealt3.tim",   //sonic_ArcMain_Idle3
 		"idleb0.tim",   //sonic_ArcMain_Idle0
 		"idleb1.tim",   //sonic_ArcMain_Idle1
 		"idleb2.tim",   //sonic_ArcMain_Idle2
 		"idleb3.tim",   //sonic_ArcMain_Idle3
+		"idlealt0.tim",   //sonic_ArcMain_Idle0
+		"idlealt1.tim",   //sonic_ArcMain_Idle1
+		"idlealt2.tim",   //sonic_ArcMain_Idle2
+		"idlealt3.tim",   //sonic_ArcMain_Idle3
+		
 
 		NULL
 	};
